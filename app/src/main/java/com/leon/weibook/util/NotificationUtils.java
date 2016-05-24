@@ -14,6 +14,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
+ * 通知信息工具类
  * Created by Leon on 2016/5/20 0020.
  */
 public class NotificationUtils {
@@ -75,11 +76,16 @@ public class NotificationUtils {
 		if (sound != null && sound.trim().length() > 0) {
 			notification.sound = Uri.parse(ContentResolver.SCHEME_ANDROID_RESOURCE + "://" + sound);
 		}
-		manager.notify(REPLY_NOTIFY_ID, notification);
+		manager.notify(REPLY_NOTIFY_ID, notification);//标记一个REPLY_NOTIFY_ID，同时显示Notification
 	}
 
+	/**
+	 * 将一个Notification取消
+	 * @param context
+	 */
 	public static void cancelNotification(Context context) {
-		NotificationManager nMgr = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
+		NotificationManager nMgr = (NotificationManager)
+				context.getSystemService(Context.NOTIFICATION_SERVICE);
 		nMgr.cancel(REPLY_NOTIFY_ID);
 	}
 

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/common_header_layout"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:background="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View style="@style/DividerLine.Horizontal"/>
+
+                <LinearLayout
+                    android:id="@+id/setting_avatar_layout"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@drawable/btn_selector"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/setting_avatar_view"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@mipmap/chat_default_user_avatar" />
+
+                    <TextView
+                        android:id="@+id/setting_username_view"
+                        android:layout_marginLeft="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="username"
+                        android:drawableRight="@mipmap/common_view_right_arrow_pic"/>
+
+                </LinearLayout>
+
+                <View style="@style/DividerLine.Horizontal"/>
+
+                <TextView
+                    android:id="@+id/setting_notifysetting_view"
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_height="60dp"
+                    android:text="@string/setting_notifySetting"
+                    android:background="@drawable/btn_selector"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:drawableRight="@mipmap/common_view_right_arrow_pic"/>
+
+                <View style="@style/DividerLine.Horizontal"/>
+
+                <TextView
+                    android:id="@+id/setting_checkupdate_view"
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_height="60dp"
+                    android:text="@string/setting_fragment_checkUpdate"
+                    android:background="@drawable/btn_selector"
+                    android:paddingLeft="@dimen/common_horizontal_margin"
+                    android:paddingRight="@dimen/common_horizontal_margin"
+                    android:drawableRight="@mipmap/common_view_right_arrow_pic"/>
+
+                <View style="@style/DividerLine.Horizontal"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/setting_logout_btn"
+                style="@style/My.Button.logout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:text="@string/setting_fragment_logout"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

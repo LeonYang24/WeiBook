@@ -3,6 +3,7 @@ package com.leon.weibook.controller;
 import android.content.Context;
 import android.content.Intent;
 import android.text.TextUtils;
+import android.util.Log;
 
 import com.avos.avoscloud.im.v2.AVIMClient;
 import com.avos.avoscloud.im.v2.AVIMConversation;
@@ -41,6 +42,7 @@ public class MessageHandler extends AVIMTypedMessageHandler<AVIMTypedMessage> {
 	 */
 	@Override
 	public void onMessage(AVIMTypedMessage message, AVIMConversation conversation, AVIMClient client) {
+		Log.i("test", "收到一条信息");
 		if (null == message || null == message.getMessageId()) {
 			LogUtils.d("may be SDK bug, message or message id is null");
 			return;
@@ -54,13 +56,17 @@ public class MessageHandler extends AVIMTypedMessageHandler<AVIMTypedMessage> {
 			LogUtils.d("selfId is null, please call setupManagerWithUserId ");
 			client.close(null);
 		} else {
-			ChatManager.getInstance().getRoomsTable().insertRoom(message.getConversationId());
-			if (!message.getFrom().equals(client.getClientId())) {
-				if (NotificationUtils.isShowNotification(conversation.getConversationId())) {
-					sendNotification(message, conversation);
+			if (!client.getClientId().equals(ChatManager.getInstance().getSelfId())) {
+				client.close(null);
+			} else {
+				ChatManager.getInstance().getRoomsTable().insertRoom(message.getConversationId());
+				if (!message.getFrom().equals(client.getClientId())) {
+					if (NotificationUtils.isShowNotification(conversation.getConversationId())) {
+						sendNotification(message, conversation);
+					}
+					ChatManager.getInstance().getRoomsTable().increaseUnreadCount(message.getConversationId());
+					sendEvent(message, conversation);
 				}
-				ChatManager.getInstance().getRoomsTable().increaseUnreadCount(message.getConversationId());
-				sendEvent(message, conversation);
 			}
 		}
 

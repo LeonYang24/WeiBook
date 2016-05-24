@@ -34,17 +34,15 @@ public class PathUtils {
 	}
 
 	/**
-	 * 有 sdcard 的时候，小米是 /storage/sdcard0/Android/data/com.avoscloud.chat/cache/
-	 * 无 sdcard 的时候，小米是 /data/data/com.avoscloud.chat/cache
+	 * 有 sdcard 的时候，三星S7Edge是 /storage/emulated/0/Android/data/com.leon.weibook/cache
+	 * 无 sdcard 的时候，未考证
 	 * @param context
 	 * @return
 	 */
 	private static File getAvailableCacheDir(Context context) {
 		if (isExternalStorageWritable()) {
-			Log.i("test", "getExternalCacheDir() :" + context.getExternalCacheDir().toString());
 			return context.getExternalCacheDir();
 		} else {
-			Log.i("test", "getCacheDir() :" + context.getCacheDir());
 			return context.getCacheDir();
 		}
 	}

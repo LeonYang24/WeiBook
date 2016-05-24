@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\menu\\update_content_menu.xml",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\menu\\update_content_menu.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\menu\\chat_ativity_menu.xml",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\menu\\chat_ativity_menu.xml"
+    }
+]

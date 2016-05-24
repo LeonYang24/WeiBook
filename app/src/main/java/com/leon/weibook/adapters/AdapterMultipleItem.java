@@ -59,6 +59,7 @@ public class AdapterMultipleItem extends RecyclerView.Adapter<RecyclerView.ViewH
 
 	/**
 	 * 在messageList中最开头处加入messages
+	 * 这里是在最前面加入messages,所以可以在对话界面上拉刷新时使用，即我们常用的上拉加载更多
 	 * @param messages
 	 */
 	public void addMessageList(List<AVIMMessage> messages) {

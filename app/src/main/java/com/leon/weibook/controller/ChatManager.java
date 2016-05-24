@@ -52,7 +52,7 @@ public class ChatManager {
 	 * @param context
 	 */
 	public void init(Context context) {
-		// 消息处理 handler
+		//注册处理特定消息（继承自AVIMMessage的任意类）AVIMTypedMessage类的指定handler
 		AVIMMessageManager.registerMessageHandler(AVIMTypedMessage.class, new MessageHandler(context));
 
 		// 与网络相关的 handler 设置AVIMClient的事件处理单元， 包括Client断开链接和重连成功事件

@@ -4,14 +4,13 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.FrameLayout;
 
 import com.leon.weibook.R;
 import com.leon.weibook.fragment.FragmentContact;
 import com.leon.weibook.fragment.FragmentConversation;
+import com.leon.weibook.fragment.FragmentSetting;
 
 import butterknife.BindView;
 
@@ -45,8 +44,9 @@ public class MainActivity extends AVBaseActivity {
 
 	//用于管理Fragment
 	private FragmentManager mFragmentManager = null;
-	private FragmentConversation mFragmentConversation = null;
-	private FragmentContact mFragmentContact = null;
+	private FragmentConversation fragmentConversation = null;
+	private FragmentContact fragmentContact = null;
+	private FragmentSetting fragmentSetting = null;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -78,29 +78,31 @@ public class MainActivity extends AVBaseActivity {
 		setNormalBackgrounds();
 		switch (id) {
 			case R.id.btn_conversation :
-				if (null == mFragmentConversation) {
-					mFragmentConversation = new FragmentConversation();
-					transaction.add(R.id.fragment_container, mFragmentConversation,
+				if (null == fragmentConversation) {
+					fragmentConversation = new FragmentConversation();
+					transaction.add(R.id.fragment_container, fragmentConversation,
 							FRAGMENT_TAG_CONVERSATION);
 				}
-				transaction.show(mFragmentConversation);
-				getWindow().setTitle("微聊");
+				transaction.show(fragmentConversation);
 				break;
 			case R.id.btn_contact :
-				if (null == mFragmentContact) {
-					mFragmentContact = new FragmentContact();
-					transaction.add(R.id.fragment_container, mFragmentContact,
+				if (null == fragmentContact) {
+					fragmentContact = new FragmentContact();
+					transaction.add(R.id.fragment_container, fragmentContact,
 							FRAGMENT_TAG_CONTACT);
 				}
-				transaction.show(mFragmentContact);
-				getWindow().setTitle("通讯录");
-				Log.i("test", "contact");
+				transaction.show(fragmentContact);
 				break;
 			case R.id.btn_discover :
-				getWindow().setTitle("发现");
+
 				break;
 			case R.id.btn_setting :
-				getWindow().setTitle("设置");
+				if (null == fragmentSetting) {
+					fragmentSetting = new FragmentSetting();
+					transaction.add(R.id.fragment_container, fragmentSetting,
+							FRAGMENT_TAG_SETTING);
+				}
+				transaction.show(fragmentSetting);
 				break;
 		}
 		int pos;

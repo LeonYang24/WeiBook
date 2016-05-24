@@ -72,7 +72,6 @@ public class ChatFragment extends Fragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.fragment_chat, container, false);
 
-
 		localCameraPath = PathUtils.getPicturePathByCurrentTime(App.ctx);//take care
 
 		recyclerView = (RecyclerView) view.findViewById(R.id.fragment_chat_rv_chat);
@@ -93,6 +92,7 @@ public class ChatFragment extends Fragment {
 
 	@Override
 	public void onViewCreated(View view, Bundle savedInstanceState) {
+		//为refreshlayout设置refresh监听器
 		refreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
 			@Override
 			public void onRefresh() {
@@ -100,6 +100,8 @@ public class ChatFragment extends Fragment {
 				if (null == message) {
 					refreshLayout.setRefreshing(false);
 				} else {
+					//getMessageId()获取消息的全局Id，这个id只有在发送成功或者收到消息时才会有对应的值
+					//queryMessages，从messageId向前查询
 					imConversation.queryMessages(message.getMessageId(), message.getTimestamp(), 20,
 							new AVIMMessagesQueryCallback() {
 								@Override
@@ -109,7 +111,7 @@ public class ChatFragment extends Fragment {
 										if (null != list && list.size() > 0) {
 											itemAdapter.addMessageList(list);
 											itemAdapter.notifyDataSetChanged();
-
+											//跳转到历史记录的最后一条信息
 											layoutManager.scrollToPositionWithOffset(list.size() - 1, 0);
 										}
 									}
@@ -124,6 +126,7 @@ public class ChatFragment extends Fragment {
 	public void onResume() {
 		super.onResume();
 		if (null != imConversation) {
+			//增加NotificationTag，因为已经在对话界面中，不需要再弹出Notification
 			NotificationUtils.addTag(imConversation.getConversationId());
 		}
 	}
@@ -132,6 +135,7 @@ public class ChatFragment extends Fragment {
 	public void onPause() {
 		super.onPause();
 		if (null != imConversation) {
+			//将本对话Tag从NotificationTag中移除，因为已跳出对话界面中，有Notification需要弹出
 			NotificationUtils.removeTag(imConversation.getConversationId());
 		}
 	}
@@ -142,10 +146,12 @@ public class ChatFragment extends Fragment {
 		EventBus.getDefault().unregister(this);
 	}
 
+
 	public void setConversation(AVIMConversation conversation) {
 		imConversation = conversation;
 		refreshLayout.setEnabled(true);
 		inputBottomBar.setTag(imConversation.getConversationId());
+		fetchMessages();//一定要加，否则没有历史记录
 		NotificationUtils.addTag(conversation.getConversationId());
 	}
 
@@ -154,7 +160,7 @@ public class ChatFragment extends Fragment {
 	}
 
 	/**
-	 * 拉取消息，必须加入conversation后才能拉取消息
+	 * 拉取消息（历史记录），必须加入conversation后才能拉取消息
 	 */
 	private void fetchMessages() {
 		imConversation.queryMessages(new AVIMMessagesQueryCallback() {
@@ -180,9 +186,6 @@ public class ChatFragment extends Fragment {
 	 */
 	@Subscribe
 	public void onEvent(InputBottomBarTextEvent textEvent) {
-		Log.i("test", "into InputBottomBarTextEvent");
-		Log.i("test", "conversation id = " + imConversation.getConversationId());
-		Log.i("test", "tag = " + textEvent.tag.toString());
 		if (null != imConversation && null != textEvent) {
 			if (!TextUtils.isEmpty(textEvent.sendContent)
 					&& imConversation.getConversationId().equals(textEvent.tag)) {
@@ -302,7 +305,6 @@ public class ChatFragment extends Fragment {
 	public void sendMessage(AVIMTypedMessage message) {
 		itemAdapter.addMessage(message);
 		itemAdapter.notifyDataSetChanged();
-		Log.i("test", "sendMessage");
 		scrollToBottom();
 		imConversation.sendMessage(message, new AVIMConversationCallback() {
 			@Override
