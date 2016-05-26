@@ -10,7 +10,9 @@ import android.widget.Button;
 import com.leon.weibook.R;
 import com.leon.weibook.fragment.FragmentContact;
 import com.leon.weibook.fragment.FragmentConversation;
+import com.leon.weibook.fragment.FragmentDiscover;
 import com.leon.weibook.fragment.FragmentSetting;
+import com.leon.weibook.service.UpdateService;
 
 import butterknife.BindView;
 
@@ -47,6 +49,7 @@ public class MainActivity extends AVBaseActivity {
 	private FragmentConversation fragmentConversation = null;
 	private FragmentContact fragmentContact = null;
 	private FragmentSetting fragmentSetting = null;
+	private FragmentDiscover fragmentDiscover = null;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -94,7 +97,12 @@ public class MainActivity extends AVBaseActivity {
 				transaction.show(fragmentContact);
 				break;
 			case R.id.btn_discover :
-
+				if (null == fragmentDiscover) {
+					fragmentDiscover = new FragmentDiscover();
+					transaction.add(R.id.fragment_container, fragmentDiscover,
+							FRAGMENT_TAG_DISCOVER);
+				}
+				transaction.show(fragmentDiscover);
 				break;
 			case R.id.btn_setting :
 				if (null == fragmentSetting) {
@@ -149,4 +157,10 @@ public class MainActivity extends AVBaseActivity {
 		}
 	}
 
+	@Override
+	protected void onResume() {
+		super.onResume();
+		UpdateService updateService = UpdateService.getInstance(this);
+		updateService.checkUpdate();
+	}
 }

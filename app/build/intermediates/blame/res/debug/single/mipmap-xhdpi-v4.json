@@ -1,5 +1,237 @@
 [
     {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\fuchen.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\fuchen.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\baoxue.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\baoxue.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\zhongdaodayu_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\zhongdaodayu_night.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\dabaoyudaotedabaoyu_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\dabaoyudaotedabaoyu_night.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\dadaobaoyu_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\dadaobaoyu_night.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tabbar_contact_select.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\tabbar_contact_select.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\xiaoxue.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\xiaoxue.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tabbar_discover_normal.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\tabbar_discover_normal.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_add_camera_press.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_add_camera_press.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\dadaobaoyu.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\dadaobaoyu.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_emo_pressed.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_emo_pressed.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\baoyu.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\baoyu.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tabbar_conversation_select.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\tabbar_conversation_select.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\service_arrow_down.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\service_arrow_down.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\login_icon_password.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\login_icon_password.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\login_bg.jpg",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\login_bg.jpg"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\dabaoyudaotedabaoyu.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\dabaoyudaotedabaoyu.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_add_pressed.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_add_pressed.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tedabaoyu_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\tedabaoyu_night.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\zhenxue.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\zhenxue.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_icon_voice5.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_icon_voice5.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\mai_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\mai_night.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\discover_music.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\discover_music.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_add_location_normal.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_add_location_normal.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\dabaoyu_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\dabaoyu_night.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\service_arrow_up.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\service_arrow_up.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_default_user_avatar.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_default_user_avatar.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\xiaodaozhongyu_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\xiaodaozhongyu_night.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tabbar_setting_normal.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\tabbar_setting_normal.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_common_image_load_fail.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_common_image_load_fail.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\leizhenyubanyoubingbao_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\leizhenyubanyoubingbao_night.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\xiaodaozhongxue_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\xiaodaozhongxue_night.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\icon.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\zhongyu_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\zhongyu_night.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\xiaodaozhongyu.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\xiaodaozhongyu.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_voice_right1.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_voice_right1.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\weather_error.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\weather_error.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_fail_resend_press.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_fail_resend_press.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_send_normal.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_send_normal.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_voice_left1.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_voice_left1.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_add_picture_normal.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_add_picture_normal.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\baoxue_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\baoxue_night.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\common_view_right_arrow_pic.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\common_view_right_arrow_pic.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\utils_icon_info_2.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\utils_icon_info_2.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\base_action_bar_add_bg_normal.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\base_action_bar_add_bg_normal.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_send_pressed.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_send_pressed.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_base_action_bar_true_bg_normal.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_base_action_bar_true_bg_normal.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\leizhenyubanyoubingbao.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\leizhenyubanyoubingbao.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_base_action_bar_true_bg_pressed.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_base_action_bar_true_bg_pressed.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_voice_left.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_voice_left.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\yujiaxue_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\yujiaxue_night.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\duoyun_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\duoyun_night.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\zhenyu_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\zhenyu_night.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\dongyu_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\dongyu_night.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_layout_home_bg_bottombar.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_layout_home_bg_bottombar.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\leizhenyu.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\leizhenyu.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_icon_voice3.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_icon_voice3.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\discover_weather.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\discover_weather.png"
+    },
+    {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_emo_normal.png",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_emo_normal.png"
     },
@@ -20,32 +252,44 @@
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_setmode_keyboard_btn_normal.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tabbar_contact_select.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\tabbar_contact_select.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\zhongxue.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\zhongxue.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tabbar_discover_normal.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\tabbar_discover_normal.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\xiaoyu.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\xiaoyu.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_add_camera_press.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_add_camera_press.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\wu.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\wu.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\baoyudaodabaoyu_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\baoyudaodabaoyu_night.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\zhongdaodaxue_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\zhongdaodaxue_night.png"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tabbar_setting_select.png",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\tabbar_setting_select.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_emo_pressed.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_emo_pressed.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\yangsha.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\yangsha.png"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_icon_voice1.png",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_icon_voice1.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tabbar_conversation_select.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\tabbar_conversation_select.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\dayu_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\dayu_night.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\dadaobaoxue.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\dadaobaoxue.png"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\contact_new_friends_icon.png",
@@ -56,24 +300,32 @@
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\common_msg_tips.png"
     },
     {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\yin_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\yin_night.png"
+    },
+    {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tabbar_contact_normal.png",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\tabbar_contact_normal.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\service_arrow_down.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\service_arrow_down.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\daxue.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\daxue.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\login_icon_password.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\login_icon_password.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\yujiaxue.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\yujiaxue.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\login_bg.jpg",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\login_bg.jpg"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\yangsha_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\yangsha_night.png"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_voice_right3.png",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_voice_right3.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\qing_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\qing_night.png"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_voice_left3.png",
@@ -88,16 +340,24 @@
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\base_action_bar_add_bg_pressed.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_add_pressed.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_add_pressed.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\zhongdaodaxue.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\zhongdaodaxue.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\dayu.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\dayu.png"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_keyboard_normal.png",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_keyboard_normal.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_icon_voice5.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_icon_voice5.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chatroom_bg.jpg",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chatroom_bg.jpg"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\activity_weather_bg.jpg",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\activity_weather_bg.jpg"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_voice_pressed.png",
@@ -108,60 +368,68 @@
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_icon_voice2.png"
     },
     {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\shachenbao_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\shachenbao_night.png"
+    },
+    {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tabbar_conversation_normal.png",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\tabbar_conversation_normal.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_add_location_normal.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_add_location_normal.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\xiaoyu_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\xiaoyu_night.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\service_arrow_up.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\service_arrow_up.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\discover_default_icon.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\discover_default_icon.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tabbar_setting_normal.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\tabbar_setting_normal.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\duoyun.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\duoyun.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_default_user_avatar.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_default_user_avatar.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\mai.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\mai.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_common_image_load_fail.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_common_image_load_fail.png"
-    },
-    {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\icon.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\zhenxue_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\zhenxue_night.png"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\baoyu_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\baoyu_night.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\wu_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\wu_night.png"
+    },
+    {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_voice_right.png",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_voice_right.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_voice_right1.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_voice_right1.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\qiangshachenbao.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\qiangshachenbao.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_fail_resend_press.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_fail_resend_press.png"
-    },
-    {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_send_normal.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_send_normal.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_location_activity_icon_geo.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_location_activity_icon_geo.png"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_message_send_fail.png",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_message_send_fail.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_voice_left1.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_voice_left1.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\dabaoyu.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\dabaoyu.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\baoyudaodabaoyu.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\baoyudaodabaoyu.png"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_btn_voice_normal.png",
@@ -172,8 +440,8 @@
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_add_camera_normal.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_add_picture_normal.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_add_picture_normal.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\xiaoxue_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\xiaoxue_night.png"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_add_picture_pressed.png",
@@ -188,64 +456,88 @@
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_keyboard_press.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\common_view_right_arrow_pic.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\common_view_right_arrow_pic.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\shachenbao.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\shachenbao.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\zhenyu.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\zhenyu.png"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_voice_left2.png",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_voice_left2.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\utils_icon_info_2.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\utils_icon_info_2.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tedabaoyu.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\tedabaoyu.png"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_add_location_press.png",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_add_location_press.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\base_action_bar_add_bg_normal.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\base_action_bar_add_bg_normal.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\dadaobaoxue_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\dadaobaoxue_night.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_send_pressed.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_send_pressed.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\dongyu.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\dongyu.png"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\contact_group_icon.png",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\contact_group_icon.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_base_action_bar_true_bg_normal.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_base_action_bar_true_bg_normal.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\qiangshachenbao_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\qiangshachenbao_night.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_base_action_bar_true_bg_pressed.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_base_action_bar_true_bg_pressed.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\zhongxue_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\zhongxue_night.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_voice_left.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_voice_left.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\daxue_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\daxue_night.png"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\login_icon_account.png",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\login_icon_account.png"
     },
     {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\zhongdaodayu.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\zhongdaodayu.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\xiaodaozhongxue.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\xiaodaozhongxue.png"
+    },
+    {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_setmode_keyboard_btn_pressed.png",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_setmode_keyboard_btn_pressed.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\yin.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\yin.png"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_voice_right2.png",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_voice_right2.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_layout_home_bg_bottombar.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_layout_home_bg_bottombar.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\zhongyu.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\zhongyu.png"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_icon_voice3.png",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\chat_icon_voice3.png"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\qing.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\qing.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\leizhenyu_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\leizhenyu_night.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\fuchen_night.png",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\mipmap-xhdpi\\fuchen_night.png"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\chat_menu_people.png",

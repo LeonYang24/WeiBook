@@ -20,8 +20,12 @@
     <color name="chat_common_blue">#2C97E8</color>
     <color name="chat_record_btn_red">#f00</color>
     <color name="chat_common_white">#fff</color>
-
+    <color name="text_purple">#9370DB</color>
     <color name="common_gray">#898989</color>
-
+    <color name="text_red">#698B22</color>
+    <color name="text_orange">#FF7F24</color>
     <color name="chat_msg_emote_divider">#ffa1a1a1</color>
+
+    <color name="text_black">#0A0A0A</color>
+    <color name="text_gray_deep">#CD3700</color>
 </resources>

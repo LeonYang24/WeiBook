@@ -40,4 +40,9 @@ dependencies {
     compile 'org.ocpsoft.prettytime:prettytime:4.0.1.Final'
     compile 'com.github.stuxuhai:jpinyin:1.1.5'
     compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile files('libs/baidumapapi_base_v3_7_3.jar')
+    compile files('libs/locSDK_6.13.jar')
+    compile files('libs/baidumapapi_search_v3_7_3.jar')
+    compile files('libs/ApiStoreSDK1.0.4.jar')
+    compile 'com.github.stuxuhai:jpinyin:1.1.5'
 }

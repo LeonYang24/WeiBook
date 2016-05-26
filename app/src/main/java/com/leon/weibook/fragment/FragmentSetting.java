@@ -11,6 +11,7 @@ import android.widget.TextView;
 import com.leon.weibook.R;
 import com.leon.weibook.controller.ChatManager;
 import com.leon.weibook.model.LeanChatUser;
+import com.leon.weibook.service.UpdateService;
 import com.leon.weibook.util.PhotoUtils;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
@@ -26,12 +27,11 @@ public class FragmentSetting extends BaseFragment {
 	private static final int IMAGE_PICK_REQUEST = 1;
 	private static final int CROP_REQUEST = 2;
 
-	@BindView(R.id.avatar_view) ImageView avatarView;
-	@BindView(R.id.username_view) TextView userNameView;
+	@BindView(R.id.setting_avatar_view) ImageView avatarView;
+	@BindView(R.id.setting_username_view) TextView userNameView;
 
 	ChatManager chatManager;
 
-	@Nullable
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.fragment_setting, container, false);
@@ -72,9 +72,13 @@ public class FragmentSetting extends BaseFragment {
 
 	}
 
+	/**
+	 * 点击检查更新信息
+	 */
 	@OnClick(R.id.setting_checkupdate_view)
 	public void onCheckUpdateClick() {
-
+		UpdateService updateService = UpdateService.getInstance(getActivity());
+		updateService.showSureUpdateDialog();
 	}
 
 	@OnClick(R.id.setting_avatar_layout)

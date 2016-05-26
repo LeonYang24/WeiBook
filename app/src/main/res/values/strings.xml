@@ -114,4 +114,43 @@
     <!-- MessageHandler -->
     <string name="unspport_message_type">暂不支持此消息类型</string>
 
+    <!-- LocationActivity -->
+    <string name="chat_position">位置</string>
+    <string name="chat_location_mapKeyErrorTips">key 验证出错! 请在 AndroidManifest.xml 文件中检查 key 设置</string>
+    <string name="chat_pleaseCheckNetwork">请检查网络</string>
+    <string name="chat_location_activity_send">发送</string>
+    <string name="chat_getGeoInfoFailed">获取地理位置信息失败!</string>
+    <string name="chat_cannotFindResult">抱歉，未能找到结果</string>
+    <string name="chat_reverseGeoCodeResultIs">反编码得到的地址：</string>
+    <string name="chat_geoIsSame">获取坐标相同</string>
+
+    <!-- UpdateService -->
+    <string name="update_service_versionIsAlreadyNew">已经是最新版本了</string>
+    <string name="update_service_sureToUpdate">确定更新版本吗</string>
+    <string name="update_service_updateLog">更新日志</string>
+    <string name="update_service_installNewVersion">安装新版本</string>
+    <string name="update_service_laterNotify">稍后提醒</string>
+    <string name="update_service_haveNewVersion">版本更新</string>
+
+    <!-- FragmentDiscover -->
+    <string name="fragment_discover_music_name">音乐</string>
+    <string name="fragment_discover_weather_name">天气</string>
+    <string name="fragment_discover_title_name">发现</string>
+
+    <!-- activity_weather.xml-->
+    <string name="activity_weather_default_location">广州</string>
+    <string name="activity_weather_error_message">出错了</string>
+    <string name="activity_weather_liveweather">实时天气</string>
+    <string name="activity_weather_ultraviolet">紫外线：</string>
+    <string name="activity_weather_pm">PM2.5:</string>
+    <string name="activity_weather_title_future_threeday">未来三天的天气状况</string>
+
+    <!-- WeatherActivity -->
+    <string name="activity_weather_reccode_error">输入的城市名有误，请重新输入</string>
+    <string name="activity_weather_refresh_success">天气数据更新成功</string>
+    <string name="activity_weather_alertdialog_title">请输入城市名</string>
+    <string name="activity_weather_alertdialog_confirm">确定</string>
+    <string name="activity_weather_alertdialog_cancel">取消</string>
+    <string name="activity_weather_alertdialog_empty">城市名不能为空</string>
+
 </resources>

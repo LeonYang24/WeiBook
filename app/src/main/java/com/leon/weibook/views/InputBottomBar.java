@@ -207,7 +207,8 @@ public class InputBottomBar extends LinearLayout{
 		locationBtn.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				EventBus.getDefault().post(new InputBottomBarLocationClickEvent(InputBottomBarEvent.INPUTBOTTOMBAR_LOCATION_ACTION, getTag()));
+				EventBus.getDefault().post(new InputBottomBarLocationClickEvent(
+						InputBottomBarEvent.INPUTBOTTOMBAR_LOCATION_ACTION, getTag()));
 			}
 		});
 	}

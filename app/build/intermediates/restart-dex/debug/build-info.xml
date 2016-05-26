@@ -4,45 +4,29 @@
     api-level="22"
     density="420dpi"
     format="7"
-    timestamp="26575223232443" >
+    timestamp="10036472131300" >
 
     <task
         name="javac"
-        duration="1001" />
+        duration="965" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="25" />
+        duration="41" />
     <task
         name="verifier"
-        duration="39" />
+        duration="16" />
 
     <artifact
-        location="E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-        type="DEX" />
-    <artifact
-        location="E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-        type="DEX" />
+        location="E:\Android_Studio_Work_Space\WeiBook\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="15895496234938" >
+    <build timestamp="10036472131300" >
         <artifact
             location="E:\Android_Studio_Work_Space\WeiBook\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="21988833286795" >
-        <artifact
-            location="E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="26575223232443" >
-        <artifact
-            location="E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

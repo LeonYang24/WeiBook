@@ -56,6 +56,10 @@ public class AVBaseActivity extends AppCompatActivity {
 		EventBus.getDefault().unregister(this);
 	}
 
+	/**
+	 *
+	 * @param menu
+	 */
 	protected void alwaysShowMenuItem(Menu menu) {
 		if (null != menu && menu.size() > 0) {
 			MenuItem item = menu.getItem(0);

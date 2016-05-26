@@ -1,5 +1,8 @@
-CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\controller\MessageHandler$override.class
-CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\fragment\ChatFragment$override.class
-CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\fragment\ChatFragment$4$override.class
+CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\activity\MainActivity$override.class
+CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\R$style$override.class
+CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\R$string$override.class
+CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\fragment\FragmentDiscover$override.class
+CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\R$styleable$override.class
+CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\util\Utils$override.class
+CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\R$mipmap$override.class
 CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
-CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\fragment\ChatFragment$3$override.class

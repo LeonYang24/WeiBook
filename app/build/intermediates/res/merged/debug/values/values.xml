@@ -94,6 +94,11 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="text_black">#0A0A0A</color>
+    <color name="text_gray_deep">#CD3700</color>
+    <color name="text_orange">#FF7F24</color>
+    <color name="text_purple">#9370DB</color>
+    <color name="text_red">#698B22</color>
     <color name="theme_bg_color">#f0f2f5</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="none" value="0"/><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
     <declare-styleable name="ActionBarLayout"><attr name="android:layout_gravity"/></declare-styleable>
@@ -253,6 +258,18 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="activity_weather_alertdialog_cancel">取消</string>
+    <string name="activity_weather_alertdialog_confirm">确定</string>
+    <string name="activity_weather_alertdialog_empty">城市名不能为空</string>
+    <string name="activity_weather_alertdialog_title">请输入城市名</string>
+    <string name="activity_weather_default_location">广州</string>
+    <string name="activity_weather_error_message">出错了</string>
+    <string name="activity_weather_liveweather">实时天气</string>
+    <string name="activity_weather_pm">PM2.5:</string>
+    <string name="activity_weather_reccode_error">输入的城市名有误，请重新输入</string>
+    <string name="activity_weather_refresh_success">天气数据更新成功</string>
+    <string name="activity_weather_title_future_threeday">未来三天的天气状况</string>
+    <string name="activity_weather_ultraviolet">紫外线：</string>
     <string name="app_name">微书</string>
     <string name="chat_activity_select_picture">选择图片</string>
     <string name="chat_bottom_camera">拍摄</string>
@@ -260,15 +277,23 @@
     <string name="chat_bottom_picture">照片</string>
     <string name="chat_bottom_record_layout_pressToRecord">按住录音</string>
     <string name="chat_cancelRecord">取消录音</string>
+    <string name="chat_cannotFindResult">抱歉，未能找到结果</string>
     <string name="chat_cannotGetYourAddressInfo">无法获取到您的位置信息！</string>
     <string name="chat_common_avatar">头像</string>
     <string name="chat_common_cancel">取消</string>
     <string name="chat_common_emptyStr"/>
     <string name="chat_common_username">用户名</string>
     <string name="chat_emotion">表情</string>
+    <string name="chat_geoIsSame">获取坐标相同</string>
+    <string name="chat_getGeoInfoFailed">获取地理位置信息失败!</string>
+    <string name="chat_location_activity_send">发送</string>
+    <string name="chat_location_mapKeyErrorTips">key 验证出错! 请在 AndroidManifest.xml 文件中检查 key 设置</string>
+    <string name="chat_pleaseCheckNetwork">请检查网络</string>
+    <string name="chat_position">位置</string>
     <string name="chat_record_button_pleaseSayMore">说多点吧～</string>
     <string name="chat_record_button_releaseToCancel">松开手指，取消录音</string>
     <string name="chat_record_button_slideUpToCancel">手指上滑，取消发送</string>
+    <string name="chat_reverseGeoCodeResultIs">反编码得到的地址：</string>
     <string name="chat_utils_hardLoading">努力加载中...</string>
     <string name="chat_utils_please_choose">请选择</string>
     <string name="chat_utils_right">好的</string>
@@ -295,6 +320,9 @@
     <string name="ensurePassword">确认密码 </string>
     <string name="ensurePasswordHint">请在此输入密码</string>
     <string name="entry_register_activity_password">密码</string>
+    <string name="fragment_discover_music_name">音乐</string>
+    <string name="fragment_discover_title_name">发现</string>
+    <string name="fragment_discover_weather_name">天气</string>
     <string name="invitation_action">com.avoscloud.chat.INVITATION_ACTION</string>
     <string name="load_more_footer_hint_normal">查看更多</string>
     <string name="login">登录</string>
@@ -317,6 +345,12 @@
     <string name="setting_notifySetting">提醒设置</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="unspport_message_type">暂不支持此消息类型</string>
+    <string name="update_service_haveNewVersion">版本更新</string>
+    <string name="update_service_installNewVersion">安装新版本</string>
+    <string name="update_service_laterNotify">稍后提醒</string>
+    <string name="update_service_sureToUpdate">确定更新版本吗</string>
+    <string name="update_service_updateLog">更新日志</string>
+    <string name="update_service_versionIsAlreadyNew">已经是最新版本了</string>
     <string name="username_cannot_null">用户名不能为空</string>
     <string name="utils_kilometres">公里</string>
     <style name="AVActivity.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
@@ -1306,7 +1340,7 @@
     </style>
     <style name="DividerLine.Horizontal">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_height">1px</item>
     </style>
     <style name="DividerLine.Vertical">
         <item name="android:layout_height">match_parent</item>

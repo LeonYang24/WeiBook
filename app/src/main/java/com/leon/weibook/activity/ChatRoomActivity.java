@@ -3,6 +3,7 @@ package com.leon.weibook.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -14,6 +15,8 @@ import com.leon.weibook.event.InputBottomBarLocationClickEvent;
 import com.leon.weibook.event.LocationItemClickEvent;
 import com.leon.weibook.util.Constants;
 import com.leon.weibook.util.NotificationUtils;
+
+import org.greenrobot.eventbus.Subscribe;
 
 /**
  * Created by Leon on 2016/5/16 0016.
@@ -80,15 +83,18 @@ public class ChatRoomActivity extends AVChatActivity{
 		}
 	}
 
-//	public void onEvent(InputBottomBarLocationClickEvent event) {
-//		LocationActivity.startToSelectLocationForResult(this, LOCATION_REQUEST);
-//	}
-//
-//	public void onEvent(LocationItemClickEvent event) {
-//		if (null != event && null != event.message && event.message instanceof AVIMLocationMessage) {
-//			AVIMLocationMessage locationMessage = (AVIMLocationMessage) event.message;
-//			LocationActivity.startToSeeLocationDetail(this, locationMessage.getLocation().getLatitude(),
-//					locationMessage.getLocation().getLongitude());
-//		}
-//	}
+
+	@Subscribe
+	public void onEvent(InputBottomBarLocationClickEvent event) {
+		LocationActivity.startToSelectLocationForResult(this, LOCATION_REQUEST);
+	}
+
+	@Subscribe
+	public void onEvent(LocationItemClickEvent event) {
+		if (null != event && null != event.message && event.message instanceof AVIMLocationMessage) {
+			AVIMLocationMessage locationMessage = (AVIMLocationMessage) event.message;
+			LocationActivity.startToSeeLocationDetail(this, locationMessage.getLocation().getLatitude(),
+					locationMessage.getLocation().getLongitude());
+		}
+	}
 }

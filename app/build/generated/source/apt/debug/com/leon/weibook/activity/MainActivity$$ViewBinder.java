@@ -14,14 +14,14 @@ public class MainActivity$$ViewBinder<T extends MainActivity> implements ViewBin
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131492948, "field 'mbtnConversation'");
-    target.mbtnConversation = finder.castView(view, 2131492948, "field 'mbtnConversation'");
-    view = finder.findRequiredView(source, 2131492950, "field 'mbtnContact'");
-    target.mbtnContact = finder.castView(view, 2131492950, "field 'mbtnContact'");
-    view = finder.findRequiredView(source, 2131492952, "field 'mbtnDiscover'");
-    target.mbtnDiscover = finder.castView(view, 2131492952, "field 'mbtnDiscover'");
-    view = finder.findRequiredView(source, 2131492953, "field 'mbtnSetting'");
-    target.mbtnSetting = finder.castView(view, 2131492953, "field 'mbtnSetting'");
+    view = finder.findRequiredView(source, 2131492950, "field 'mbtnConversation'");
+    target.mbtnConversation = finder.castView(view, 2131492950, "field 'mbtnConversation'");
+    view = finder.findRequiredView(source, 2131492952, "field 'mbtnContact'");
+    target.mbtnContact = finder.castView(view, 2131492952, "field 'mbtnContact'");
+    view = finder.findRequiredView(source, 2131492954, "field 'mbtnDiscover'");
+    target.mbtnDiscover = finder.castView(view, 2131492954, "field 'mbtnDiscover'");
+    view = finder.findRequiredView(source, 2131492955, "field 'mbtnSetting'");
+    target.mbtnSetting = finder.castView(view, 2131492955, "field 'mbtnSetting'");
     return unbinder;
   }
 

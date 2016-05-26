@@ -1,5 +1,7 @@
 package com.leon.weibook.fragment;
 
+import android.annotation.TargetApi;
+import android.app.Activity;
 import android.app.Fragment;
 import android.content.Intent;
 import android.net.Uri;
@@ -35,6 +37,7 @@ import com.leon.weibook.event.InputBottomBarRecordEvent;
 import com.leon.weibook.event.InputBottomBarTextEvent;
 import com.leon.weibook.util.NotificationUtils;
 import com.leon.weibook.util.PathUtils;
+import com.leon.weibook.util.ProviderPathUtils;
 import com.leon.weibook.views.InputBottomBar;
 
 import org.greenrobot.eventbus.EventBus;
@@ -43,9 +46,6 @@ import org.greenrobot.eventbus.Subscribe;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 /**
  * 将聊天相关的封装到这个Fragment里，只需要通过通过setConversation传入Conversatioin即可
@@ -189,7 +189,6 @@ public class ChatFragment extends Fragment {
 		if (null != imConversation && null != textEvent) {
 			if (!TextUtils.isEmpty(textEvent.sendContent)
 					&& imConversation.getConversationId().equals(textEvent.tag)) {
-				Log.i("test", "准备发送信息");
 				sendText(textEvent.sendContent);
 			}
 		}
@@ -325,6 +324,40 @@ public class ChatFragment extends Fragment {
 			return false;
 		} else {
 			return true;
+		}
+	}
+
+	@TargetApi(Build.VERSION_CODES.KITKAT)
+	@Override
+	public void onActivityResult(int requestCode, int resultCode, Intent data) {
+		super.onActivityResult(requestCode, resultCode, data);
+		if (resultCode == Activity.RESULT_OK) {
+			switch (requestCode) {
+				case GALLERY_REQUEST:
+				case GALLERY_KITKAT_REQUEST:
+					if (data == null) {
+						toast("return intent is null");
+						return;
+					}
+					Uri uri;
+					if (requestCode == GALLERY_REQUEST) {
+						uri = data.getData();
+					} else {
+						//for Android 4.4
+						uri = data.getData();
+						final int takeFlags = data.getFlags() & (Intent.FLAG_GRANT_READ_URI_PERMISSION
+								| Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
+						getActivity().getContentResolver().takePersistableUriPermission(uri, takeFlags);
+					}
+					String localSelectPath = ProviderPathUtils.getPath(getActivity(), uri);
+					inputBottomBar.hideMoreLayout();
+					sendImage(localSelectPath);
+					break;
+				case TAKE_CAMERA_REQUEST:
+					inputBottomBar.hideMoreLayout();
+					sendImage(localCameraPath);
+					break;
+			}
 		}
 	}
 }

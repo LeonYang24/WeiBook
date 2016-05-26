@@ -15,20 +15,20 @@ public class UserLoginActivity$$ViewBinder<T extends UserLoginActivity> implemen
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131492955, "field 'userNameView'");
-    target.userNameView = finder.castView(view, 2131492955, "field 'userNameView'");
-    view = finder.findRequiredView(source, 2131492956, "field 'passwordView'");
-    target.passwordView = finder.castView(view, 2131492956, "field 'passwordView'");
-    view = finder.findRequiredView(source, 2131492960, "method 'register'");
-    unbinder.view2131492960 = view;
+    view = finder.findRequiredView(source, 2131492957, "field 'userNameView'");
+    target.userNameView = finder.castView(view, 2131492957, "field 'userNameView'");
+    view = finder.findRequiredView(source, 2131492958, "field 'passwordView'");
+    target.passwordView = finder.castView(view, 2131492958, "field 'passwordView'");
+    view = finder.findRequiredView(source, 2131492962, "method 'register'");
+    unbinder.view2131492962 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.register();
       }
     });
-    view = finder.findRequiredView(source, 2131492959, "method 'login'");
-    unbinder.view2131492959 = view;
+    view = finder.findRequiredView(source, 2131492961, "method 'login'");
+    unbinder.view2131492961 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -45,9 +45,9 @@ public class UserLoginActivity$$ViewBinder<T extends UserLoginActivity> implemen
   protected static class InnerUnbinder<T extends UserLoginActivity> implements Unbinder {
     private T target;
 
-    View view2131492960;
+    View view2131492962;
 
-    View view2131492959;
+    View view2131492961;
 
     protected InnerUnbinder(T target) {
       this.target = target;
@@ -63,8 +63,8 @@ public class UserLoginActivity$$ViewBinder<T extends UserLoginActivity> implemen
     protected void unbind(T target) {
       target.userNameView = null;
       target.passwordView = null;
-      view2131492960.setOnClickListener(null);
-      view2131492959.setOnClickListener(null);
+      view2131492962.setOnClickListener(null);
+      view2131492961.setOnClickListener(null);
     }
   }
 }
