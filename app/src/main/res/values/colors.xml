@@ -28,4 +28,10 @@
 
     <color name="text_black">#0A0A0A</color>
     <color name="text_gray_deep">#CD3700</color>
+
+    <color name="actionbar_item_color">#303537</color>
+    <color name="actionbar_bg_color">#303537</color>
+    <color name="actionbar_title_color">#FFFFFF</color>
+    <color name="actionbar_item_text_color">#FFFFFF</color>
+
 </resources>

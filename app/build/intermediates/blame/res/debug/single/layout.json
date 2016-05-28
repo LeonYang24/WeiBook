@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_add_friend_activity.xml",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\contact_add_friend_activity.xml"
-    },
-    {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_add_friend_activity.xml",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\contact_add_friend_activity.xml"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_fragment_header_layout.xml",
@@ -20,12 +20,12 @@
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\contact_add_friend_item.xml"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_entrysplash.xml",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\activity_entrysplash.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_left_layout.xml",
@@ -40,12 +40,12 @@
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_big_media.xml"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_footer_item_layout.xml",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\common_footer_item_layout.xml"
-    },
-    {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_image_layout.xml",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\chat_item_image_layout.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_footer_item_layout.xml",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\common_footer_item_layout.xml"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_left_audio_layout.xml",
@@ -54,6 +54,10 @@
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\conversation_detail_footer_layout.xml",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\conversation_detail_footer_layout.xml"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_person_info_activity.xml",
@@ -66,6 +70,10 @@
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_base_top.xml",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\common_base_top.xml"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
@@ -112,6 +120,10 @@
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_media_action.xml"
     },
     {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_view_right_arrow.xml",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\common_view_right_arrow.xml"
+    },
+    {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
@@ -144,10 +156,6 @@
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_item_discover_layout.xml",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\common_item_discover_layout.xml"
-    },
-    {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_media.xml"
     },
@@ -162,6 +170,10 @@
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_emotion_gridview.xml",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\chat_emotion_gridview.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_item_layout.xml",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\common_item_layout.xml"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
@@ -190,6 +202,10 @@
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\conversation_member_item.xml",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\conversation_member_item.xml"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat_location.xml",
@@ -224,6 +240,10 @@
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\search_user_item_layout.xml"
     },
     {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\conversation_add_members_item.xml",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\conversation_add_members_item.xml"
+    },
+    {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_big_media_narrow.xml"
     },
@@ -236,12 +256,16 @@
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\fragment_conversation.xml"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_location.xml",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\chat_item_location.xml"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\update_content_layout.xml",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\update_content_layout.xml"
     },
     {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_header_layout.xml",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\common_header_layout.xml"
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\conversation_add_members_layout.xml",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\conversation_add_members_layout.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_location.xml",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\chat_item_location.xml"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_common_base_header_right_btn.xml",
@@ -280,6 +304,10 @@
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
+        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_base_header.xml",
+        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\common_base_header.xml"
+    },
+    {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
@@ -302,10 +330,6 @@
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_new_friend_activity.xml",
         "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\contact_new_friend_activity.xml"
-    },
-    {
-        "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_common_base_header.xml",
-        "source": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\src\\main\\res\\layout\\chat_common_base_header.xml"
     },
     {
         "merged": "E:\\Android_Studio_Work_Space\\WeiBook\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_bottom_text_layout.xml",

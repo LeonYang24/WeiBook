@@ -15,36 +15,36 @@ public class FragmentSetting$$ViewBinder<T extends FragmentSetting> implements V
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131493100, "field 'avatarView'");
-    target.avatarView = finder.castView(view, 2131493100, "field 'avatarView'");
-    view = finder.findRequiredView(source, 2131493101, "field 'userNameView'");
-    target.userNameView = finder.castView(view, 2131493101, "field 'userNameView'");
-    view = finder.findRequiredView(source, 2131493102, "method 'onNotifySettingClick'");
-    unbinder.view2131493102 = view;
+    view = finder.findRequiredView(source, 2131493113, "field 'avatarView'");
+    target.avatarView = finder.castView(view, 2131493113, "field 'avatarView'");
+    view = finder.findRequiredView(source, 2131493114, "field 'userNameView'");
+    target.userNameView = finder.castView(view, 2131493114, "field 'userNameView'");
+    view = finder.findRequiredView(source, 2131493116, "method 'onNotifySettingClick'");
+    unbinder.view2131493116 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.onNotifySettingClick();
       }
     });
-    view = finder.findRequiredView(source, 2131493104, "method 'onLogoutClick'");
-    unbinder.view2131493104 = view;
+    view = finder.findRequiredView(source, 2131493119, "method 'onLogoutClick'");
+    unbinder.view2131493119 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.onLogoutClick();
       }
     });
-    view = finder.findRequiredView(source, 2131493103, "method 'onCheckUpdateClick'");
-    unbinder.view2131493103 = view;
+    view = finder.findRequiredView(source, 2131493117, "method 'onCheckUpdateClick'");
+    unbinder.view2131493117 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.onCheckUpdateClick();
       }
     });
-    view = finder.findRequiredView(source, 2131493099, "method 'onAvatarClick'");
-    unbinder.view2131493099 = view;
+    view = finder.findRequiredView(source, 2131493112, "method 'onAvatarClick'");
+    unbinder.view2131493112 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -61,13 +61,13 @@ public class FragmentSetting$$ViewBinder<T extends FragmentSetting> implements V
   protected static class InnerUnbinder<T extends FragmentSetting> implements Unbinder {
     private T target;
 
-    View view2131493102;
+    View view2131493116;
 
-    View view2131493104;
+    View view2131493119;
 
-    View view2131493103;
+    View view2131493117;
 
-    View view2131493099;
+    View view2131493112;
 
     protected InnerUnbinder(T target) {
       this.target = target;
@@ -83,10 +83,10 @@ public class FragmentSetting$$ViewBinder<T extends FragmentSetting> implements V
     protected void unbind(T target) {
       target.avatarView = null;
       target.userNameView = null;
-      view2131493102.setOnClickListener(null);
-      view2131493104.setOnClickListener(null);
-      view2131493103.setOnClickListener(null);
-      view2131493099.setOnClickListener(null);
+      view2131493116.setOnClickListener(null);
+      view2131493119.setOnClickListener(null);
+      view2131493117.setOnClickListener(null);
+      view2131493112.setOnClickListener(null);
     }
   }
 }

@@ -14,6 +14,12 @@ import android.widget.TextView;
 import com.leon.weibook.R;
 
 /**
+ * 这是用于显示标题的layoutView
+ *
+ * 1、包含了一个标题titleView
+ * 2、两个左右布局view ：leftContainer 、 rightContainer
+ * 3、还有包含在leftContainer中的返回按钮backBtn 以及 rightContainer中的imageBtn
+ *
  * Created by Leon on 2016/5/15 0015.
  */
 public class HeaderLayout extends LinearLayout{
@@ -39,7 +45,7 @@ public class HeaderLayout extends LinearLayout{
 	 */
 	private void init() {
 		inflater = LayoutInflater.from(getContext());
-		header = (RelativeLayout) inflater.inflate(R.layout.chat_common_base_header, null, false);
+		header = (RelativeLayout) inflater.inflate(R.layout.common_base_top, null, false);
 		titleView = (TextView) header.findViewById(R.id.titleView);
 		leftContainer = (LinearLayout) header.findViewById(R.id.leftContainer);
 		rightContainer = (LinearLayout) header.findViewById(R.id.rightContainer);
@@ -47,10 +53,18 @@ public class HeaderLayout extends LinearLayout{
 		addView(header);
 	}
 
+	/**
+	 * 设置资源ID设置标题内容
+	 * @param titleId
+	 */
 	public void setTitle(int titleId) {
 		titleView.setText(titleId);
 	}
 
+	/**
+	 * 通过字符串设置标题内容
+	 * @param s
+	 */
 	public void setTitle(String s) {
 		titleView.setText(s);
 	}
@@ -59,6 +73,11 @@ public class HeaderLayout extends LinearLayout{
 		showLeftBackButton(R.string.chat_common_emptyStr, listener);
 	}
 
+	/**
+	 * 展示左边的返回按钮
+	 * @param backTextId 设置按钮显示文本，这里要传入资源ID
+	 * @param listener
+	 */
 	public void showLeftBackButton(int backTextId, OnClickListener listener) {
 		backBtn.setVisibility(View.VISIBLE);
 		backBtn.setText(backTextId);
@@ -73,6 +92,11 @@ public class HeaderLayout extends LinearLayout{
 		backBtn.setOnClickListener(listener);//如果listener为空，点击则结束activity
 	}
 
+	/**
+	 * 展示右边的Button
+	 * @param rightResId
+	 * @param listener
+	 */
 	public void showRightImageButton(int rightResId, OnClickListener listener) {
 		View imageViewLayout = inflater.inflate(R.layout.chat_common_base_header_right_image_btn,
 												null, false);

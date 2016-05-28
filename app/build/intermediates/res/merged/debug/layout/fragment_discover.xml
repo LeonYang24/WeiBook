@@ -5,8 +5,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <include layout="@layout/common_header_layout"/>
-
     <View
         android:id="@+id/line"
         android:layout_width="match_parent"
@@ -24,6 +22,39 @@
             android:layout_height="match_parent">
 
             <com.leon.weibook.views.DiscoverItemView
+                android:id="@+id/item_friend_circle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:background="#D6D6D6"
+                android:textColor="@color/chat_common_guide_color" />
+
+            <com.leon.weibook.views.DiscoverItemView
+                android:id="@+id/item_nearby_people"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"/>
+
+            <com.leon.weibook.views.DiscoverItemView
+                android:id="@+id/item_rich_scan"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:background="#D6D6D6"
+                android:textColor="@color/chat_common_guide_color" />
+
+            <com.leon.weibook.views.DiscoverItemView
                 android:id="@+id/item_music"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
@@ -38,8 +69,6 @@
                 android:layout_height="60dp"
                 android:paddingLeft="10dp"
                 android:gravity="center_vertical"/>
-
-            <View style="@style/DividerLine.Horizontal"/>
 
         </LinearLayout>
 

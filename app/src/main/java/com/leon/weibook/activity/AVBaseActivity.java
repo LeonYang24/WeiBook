@@ -1,5 +1,6 @@
 package com.leon.weibook.activity;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -12,7 +13,6 @@ import android.widget.Toast;
 
 import com.leon.weibook.R;
 import com.leon.weibook.event.EmptyEvent;
-import com.leon.weibook.util.LogUtils;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -21,10 +21,13 @@ import butterknife.ButterKnife;
 
 /**
  * 这是本程序所有Activity所用的父类Activity
- * 封装了常用方法以及默认注册了ButterKnife
+ *
+ * 1、封装了常用方法setContentView（默认注册了ButterKnife）
+ * 2、注册了EventBus（注意，每个继承该Acvitiy的类都要构造一个onEvent字样的函数）
+ *
  * Created by Leon on 2016/5/13 0013.
  */
-public class AVBaseActivity extends AppCompatActivity {
+public class AVBaseActivity extends Activity {
 
 	@Override
 	public void setContentView(int layoutResID) {
@@ -75,7 +78,6 @@ public class AVBaseActivity extends AppCompatActivity {
 	 */
 	protected  boolean filterException(Exception e) {
 		if (null != e) {
-			Log.i("test", "into filterException");
 			e.printStackTrace();
 			toast(e.getMessage());
 			return false;
@@ -84,23 +86,36 @@ public class AVBaseActivity extends AppCompatActivity {
 		}
 	}
 
+	/**
+	 * 显示传入的字符串
+	 * @param str
+	 */
 	protected void toast(String str) {
 		Toast.makeText(this, str, Toast.LENGTH_SHORT).show();
 	}
 
-	protected void showToast(String content) {
-		Toast.makeText(this, content, Toast.LENGTH_SHORT).show();
-	}
-
-	protected void showToast(int resId) {
+	/**
+	 * 显示传入的资源ID的信息
+	 * @param resId
+	 */
+	protected void toast(int resId) {
 		Toast.makeText(this, resId, Toast.LENGTH_SHORT).show();
 	}
 
+	/**
+	 * 直接传入要跳转到的activity类即可
+	 * @param cls
+	 */
 	protected void startActivity(Class<?> cls) {
 		Intent intent = new Intent(this, cls);
 		startActivity(intent);
 	}
 
+	/**
+	 * 传入需要跳转到的activity类 以及 要传递的信息
+	 * @param cls
+	 * @param objs
+	 */
 	protected void startActivity(Class<?> cls, String... objs) {
 		Intent intent = new Intent(this, cls);
 		for (int i = 0; i < objs.length; i++) {
@@ -109,6 +124,11 @@ public class AVBaseActivity extends AppCompatActivity {
 		startActivity(intent);
 	}
 
+	/**
+	 * 传入需要跳转到的activity类 以及 请求码 （可以收到返回值）
+	 * @param cls
+	 * @param requestCode
+	 */
 	public void startActivity(Class<?> cls, int requestCode) {
 		startActivityForResult(new Intent(this, cls), requestCode);
 	}
@@ -122,15 +142,14 @@ public class AVBaseActivity extends AppCompatActivity {
 	public void onEvent(EmptyEvent emptyEvent) {}
 
 	/**
-	 * 该函数
+	 * 显示一个加载画面 （与BaseFragment里的一致）
 	 * @return
 	 */
 	protected ProgressDialog showSpinnerDialog() {
-		//activity = modifyDialogContext(activity);
 		ProgressDialog dialog = new ProgressDialog(this);
 		dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);//循环旋转风格，也是默认风格
 		dialog.setCancelable(true);//可以取消
-		dialog.setMessage(getString(R.string.chat_utils_hardLoading));
+		dialog.setMessage(getString(R.string.hard_to_loading));
 		if (!isFinishing()) {//如果activity并非finishing状态，则展示该dialog
 			dialog.show();
 		}

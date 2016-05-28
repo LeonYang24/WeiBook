@@ -47,17 +47,16 @@ public class UserLoginActivity extends AVBaseActivity {
 
 	@OnClick(R.id.activity_login_btn_login)
 	public void login() {
-		Log.i("test", "login");
 		final String name = userNameView.getText().toString().trim();
 		final String password = passwordView.getText().toString().trim();
 
 		if (TextUtils.isEmpty(name)) {
-			Utils.toast(R.string.username_cannot_null);
+			toast(R.string.username_cannot_null);
 			return;
 		}
 
 		if (TextUtils.isEmpty(password)) {
-			Utils.toast(R.string.password_can_not_null);
+			toast(R.string.password_can_not_null);
 			return;
 		}
 

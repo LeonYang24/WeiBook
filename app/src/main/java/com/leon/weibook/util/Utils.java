@@ -284,10 +284,6 @@ public class Utils {
 		Toast.makeText(cxt, id, Toast.LENGTH_SHORT).show();
 	}
 
-	public static void toastLong(Context cxt, int id) {
-		Toast.makeText(cxt, id, Toast.LENGTH_LONG).show();
-	}
-
 	public static ProgressDialog showHorizontalDialog(Activity activity) {
 		//activity = modifyDialogContext(activity);
 		ProgressDialog dialog = new ProgressDialog(activity);
@@ -352,7 +348,7 @@ public class Utils {
 		ProgressDialog dialog = new ProgressDialog(activity);
 		dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
 		dialog.setCancelable(true);
-		dialog.setMessage(App.ctx.getString(R.string.chat_utils_hardLoading));
+		dialog.setMessage(App.ctx.getString(R.string.hard_to_loading));
 		if (!activity.isFinishing()) {
 			dialog.show();
 		}

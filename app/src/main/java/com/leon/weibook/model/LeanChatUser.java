@@ -77,6 +77,8 @@ public class LeanChatUser extends AVUser {
 
 	/**
 	 * 获取当前用户
+	 * 打开微博或者微信，它不会每次都要求用户都登录，原因是因为在客户端做了用户数据的缓存。
+	 * 因此，只要是调用了登录相关的接口，SDK 都会自动缓存登录用户的数据。
 	 * @return The currently logged in AVUser subclass instance.
 	 */
 	public static LeanChatUser getCurrentUser() {

@@ -19,13 +19,17 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 /**
- * "发现"页
+ * 底部Tab第三个“发现”页面
  * Created by Leon on 2016/5/15 0015.
  */
 public class FragmentDiscover extends BaseFragment {
 
+	@BindView(R.id.item_friend_circle) DiscoverItemView itemFriendCircle;
+	@BindView(R.id.item_rich_scan) DiscoverItemView itemRichScan;
+	@BindView(R.id.item_nearby_people) DiscoverItemView itemNearbyPeople;
 	@BindView(R.id.item_music) DiscoverItemView itemMusic;
 	@BindView(R.id.item_weather) DiscoverItemView itemWeather;
+
 
 	@OnClick(R.id.item_music)
 	public void openMusic() {
@@ -36,12 +40,6 @@ public class FragmentDiscover extends BaseFragment {
 	public void openWeather() {
 		Intent intent = new Intent(getActivity(), WeatherActivity.class);
 		startActivity(intent);
-	}
-
-	@Override
-	public void onActivityCreated(Bundle savedInstanceState) {
-		super.onActivityCreated(savedInstanceState);
-		headerLayout.setTitle(getString(R.string.fragment_discover_title_name));
 	}
 
 	@Nullable
@@ -55,11 +53,21 @@ public class FragmentDiscover extends BaseFragment {
 	}
 
 	private void init() {
+		itemFriendCircle.setIcon(R.mipmap.discover_friend_circle);
+		itemFriendCircle.setIconName(getString(R.string.fragment_discover_friend_circle));
+
 		itemMusic.setIcon(R.mipmap.discover_music);
 		itemMusic.setIconName(getString(R.string.fragment_discover_music_name));
 
 		itemWeather.setIcon(R.mipmap.discover_weather);
 		itemWeather.setIconName(getString(R.string.fragment_discover_weather_name));
+
+		itemRichScan.setIcon(R.mipmap.discover_richscan);
+		itemRichScan.setIconName(getString(R.string.fragment_discover_rici_scan));
+
+		itemNearbyPeople.setIcon(R.mipmap.discover_nearby);
+		itemNearbyPeople.setIconName(getString(R.string.fragment_discover_nearby_people));
+
 	}
 
 }

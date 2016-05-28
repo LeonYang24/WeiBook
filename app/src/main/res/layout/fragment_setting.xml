@@ -5,15 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <include layout="@layout/common_header_layout"/>
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <LinearLayout
             android:orientation="vertical"
-            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -23,7 +20,12 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <View style="@style/DividerLine.Horizontal"/>
+                <View
+                    android:id="@+id/line1"
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:background="#D6D6D6"
+                    android:textColor="@color/chat_common_guide_color" />
 
                 <LinearLayout
                     android:id="@+id/setting_avatar_layout"
@@ -51,7 +53,12 @@
 
                 </LinearLayout>
 
-                <View style="@style/DividerLine.Horizontal"/>
+                <View
+                    android:id="@+id/line2"
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:background="#D6D6D6"
+                    android:textColor="@color/chat_common_guide_color" />
 
                 <TextView
                     android:id="@+id/setting_notifysetting_view"
@@ -77,7 +84,12 @@
                     android:paddingRight="@dimen/common_horizontal_margin"
                     android:drawableRight="@mipmap/common_view_right_arrow_pic"/>
 
-                <View style="@style/DividerLine.Horizontal"/>
+                <View
+                    android:id="@+id/line3"
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:background="#D6D6D6"
+                    android:textColor="@color/chat_common_guide_color" />
 
             </LinearLayout>
 

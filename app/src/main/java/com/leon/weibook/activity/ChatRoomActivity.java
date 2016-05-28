@@ -3,7 +3,6 @@ package com.leon.weibook.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -73,7 +72,7 @@ public class ChatRoomActivity extends AVChatActivity{
 						locationMsg.setText(address);
 						chatFragment.sendMessage(locationMsg);
 					} else {
-						showToast(R.string.chat_cannotGetYourAddressInfo);
+						toast(R.string.chat_cannotGetYourAddressInfo);
 					}
 					break;
 				case QUIT_GROUP_REQUEST:

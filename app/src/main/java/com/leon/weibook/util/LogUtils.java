@@ -3,6 +3,9 @@ package com.leon.weibook.util;
 import android.util.Log;
 
 /**
+ * Log工具类
+ *
+ * 1、重新封装一下Log常用函数，使其默认Key值为 “weibook”
  *
  * Created by Leon on 2016/5/13 0013.
  */

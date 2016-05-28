@@ -6,13 +6,21 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 import com.leon.weibook.adapters.HeaderListAdapter;
+import com.leon.weibook.util.Utils;
 
 import java.util.Arrays;
 
 /**
+ * 自定义的一个RecyclerView
+ *
+ * 1、支持下拉刷新（下拉刷新需要配合 SwipeRefreshLayout 使用，需要在初始化 RefreshableRecyclerView后
+ *                 调用 setRelationSwipeLayout 来设置关联）
+ *
  * Created by Leon on 2016/5/16 0016.
  */
 public class RefreshableRecyclerView extends RecyclerView {
@@ -47,7 +55,51 @@ public class RefreshableRecyclerView extends RecyclerView {
 	}
 
 	/**
-	 * 设置关联的 SwipeRefreshLayout， 下拉刷新时使用
+	 *
+	 */
+	private void initView() {
+		loadMoreFooterView = new LoadMoreFooterView(getContext());
+		loadMoreFooterView.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				if (enableLoadMore && STATUS_LAOD_MORE != getLoadStatus()) {
+					startLoad();
+				}
+			}
+		});
+
+		/**
+		 * recyclerView 滚动时的监听器
+		 */
+		addOnScrollListener(new OnScrollListener() {
+			@Override
+			/**
+			 * @param recyclerView The RecyclerView which scrolled.
+			 * @param dx The amount of horizontal scroll.
+			 * @param dy The amount of vertical scroll.
+			 */
+			public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+				super.onScrolled(recyclerView, dx, dy);
+				if (enableLoadMore && STATUS_LAOD_MORE != getLoadStatus()) {
+					LinearLayoutManager layoutManager = (LinearLayoutManager) getLayoutManager();
+					int totalItemCount = layoutManager.getItemCount();
+					int lastVisibleItem = layoutManager.findLastVisibleItemPosition();
+					if (lastVisibleItem == totalItemCount - 1) {
+						View view = layoutManager.findViewByPosition(lastVisibleItem);
+						Rect rect = new Rect();
+						//getGlobalVisibleRect方法的作用是获取视图在屏幕坐标系中的偏移量
+						view.getGlobalVisibleRect(rect);
+						if (rect.height() / view.getHeight() > VISIBLE_SCALE) {//上拉大于一定比例就加载
+							startLoad();
+						}
+					}
+				}
+			}
+		});
+	}
+
+	/**
+	 * 设置关联的 SwipeRefreshLayout，下拉刷新时使用
 	 * @param relationSwipeLayout
 	 */
 	public void setRelationSwipeLayout(SwipeRefreshLayout relationSwipeLayout) {
@@ -56,7 +108,7 @@ public class RefreshableRecyclerView extends RecyclerView {
 			swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
 				@Override
 				public void onRefresh() {
-					startRefresh();
+					refreshData();
 				}
 			});
 		} else {
@@ -65,7 +117,8 @@ public class RefreshableRecyclerView extends RecyclerView {
 	}
 
 	/**
-	 * RefreshableRecyclerView 需要配合 HeaderListAdapter 使用
+	 * 用于设置适配器，需要配合 HeaderListAdapter使用
+	 * 这里会为界面添加一个 loadMoreFooterView（“查看更多”）
 	 * @param adapter
 	 */
 	@Override
@@ -82,6 +135,10 @@ public class RefreshableRecyclerView extends RecyclerView {
 		}
 	}
 
+	/**
+	 * 获取适配器adapter
+	 * @return
+	 */
 	@Override
 	public HeaderListAdapter getAdapter() {
 		return (HeaderListAdapter)super.getAdapter();
@@ -95,54 +152,29 @@ public class RefreshableRecyclerView extends RecyclerView {
 		this.pageNum = pageNum;
 	}
 
-	public void refreshData() {
-		startRefresh();
-	}
-
+	/**
+	 * 设置数据加载时的监听器，注意是加载时调用，并非完成后调用
+	 * @param loadDataListener
+	 */
 	public void setOnLoadDataListener(OnLoadDataListener loadDataListener) {
 		onLoadDataListener = loadDataListener;
 	}
 
-	private void initView() {
-		loadMoreFooterView = new LoadMoreFooterView(getContext());
-		loadMoreFooterView.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				if (enableLoadMore && STATUS_LAOD_MORE != getLoadStatus()) {
-					startLoad();
-				}
-			}
-		});
-		addOnScrollListener(new OnScrollListener() {
-			@Override
-			public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
-				super.onScrolled(recyclerView, dx, dy);
-				if (enableLoadMore && STATUS_LAOD_MORE != getLoadStatus()) {
-					LinearLayoutManager layoutManager = (LinearLayoutManager) getLayoutManager();
-					int totalItemCount = layoutManager.getItemCount();
-					int lastVisibleItem = layoutManager.findLastVisibleItemPosition();
-					if (lastVisibleItem == totalItemCount - 1) {
-						View view = layoutManager.findViewByPosition(lastVisibleItem);
-						Rect rect = new Rect();
-						view.getGlobalVisibleRect(rect);
-						if (rect.height() / view.getHeight() > VISIBLE_SCALE) {
-							startLoad();
-						}
-					}
-				}
-			}
-		});
-	}
-
 	/**
-	 * 调用该函数之前，需先保证setOnLoadDataListener得到了调用
+	 * 刷新数据
+	 * TODO 调用该函数之前，需先保证setOnLoadDataListener得到了调用
 	 */
-	private void startRefresh() {
+	public void refreshData() {
 		if (null != onLoadDataListener) {
 			onLoadDataListener.onLoad(0, pageNum, true);
+		} else {
+			Utils.toast("Have to call the method setOnLoadDataListener");
 		}
 	}
 
+	/**
+	 * 开始加载
+	 */
 	private void startLoad() {
 		if (STATUS_LAOD_MORE != getLoadStatus()) {
 			HeaderListAdapter adapter = getAdapter();
@@ -163,6 +195,10 @@ public class RefreshableRecyclerView extends RecyclerView {
 		enableLoadMore = enable;
 	}
 
+	/**
+	 * 设置加载状态 通过状态来决定是否显示 loadMoreFooterView
+	 * @param status
+	 */
 	private void setLoadStatus(int status) {
 		loadStatus = status;
 		loadMoreFooterView.onLoadStatusChanged(status);
@@ -178,19 +214,23 @@ public class RefreshableRecyclerView extends RecyclerView {
 		}
 	}
 
+	/**
+	 * 获取加载状态
+	 * @return
+	 */
 	public int getLoadStatus() {
 		return loadStatus;
 	}
 
 	/**
-	 * 设置刷新完毕，如果 isRefresh 为 true，则清空所有数据，设置为 datas
-	 * 如果 isReresh 为 false，则把 datas 叠加到现有数据中
-	 * @param datas
-	 * @param isRefresh
+	 * 设置刷新后的数据
+	 * @param datas 用于显示的数据
+	 * @param isRefresh 如果 isRefresh 为 true，则清空所有数据，设置为 datas
+	 *                  如果 isRefresh 为 false，则把 datas 叠加到现有数据中
 	 */
 	public void setLoadComplete(Object[] datas, boolean isRefresh) {
 		setLoadStatus(STATUS_NORMAL);
-		HeaderListAdapter adapter = getAdapter();
+		HeaderListAdapter adapter = getAdapter();//获取本View的adapter
 		if (null != adapter) {
 			if (isRefresh) {
 				adapter.setDataList(Arrays.asList(datas));
@@ -203,10 +243,19 @@ public class RefreshableRecyclerView extends RecyclerView {
 				adapter.notifyDataSetChanged();
 			}
 		}
+
 	}
 
-
+	/**
+	 * 加载数据监听器接口
+	 */
 	public interface OnLoadDataListener {
+		/**
+		 * 加载时调用的函数
+		 * @param skip 设置跳过多少数据 默认是0
+		 * @param limit 设置数据获取数量
+		 * @param isRefresh 是否刷新
+		 */
 		public void onLoad(int skip, int limit, boolean isRefresh);
 	}
 }

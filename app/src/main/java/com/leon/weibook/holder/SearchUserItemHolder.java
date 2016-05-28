@@ -15,6 +15,7 @@ import com.leon.weibook.util.PhotoUtils;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
 /**
+ * 这是用于显示“查找好友”界面的ViewHolder
  * Created by Leon on 2016/5/16 0016.
  */
 public class SearchUserItemHolder extends CommonViewHolder<LeanChatUser> {
@@ -29,6 +30,9 @@ public class SearchUserItemHolder extends CommonViewHolder<LeanChatUser> {
 		nameView = (TextView)itemView.findViewById(R.id.search_user_item_tv_name);
 		avatarView = (ImageView)itemView.findViewById(R.id.search_user_item_im_avatar);
 
+		/**
+		 * 点击item跳转到用户 “详细资料” 页
+		 */
 		itemView.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {

@@ -23,6 +23,10 @@ public class Constants {
 
 	public static final String LEANCHAT_USER_ID = getPrefixConstant("leanchat_user_id");
 
+	public static final String INTENT_KEY = getPrefixConstant("intent_key");
+
+	public static final String INTENT_VALUE = getPrefixConstant("intent_value");
+
 	// ImageBrowserActivity
 	public static final String IMAGE_LOCAL_PATH = getPrefixConstant("image_local_path");
 	public static final String IMAGE_URL = getPrefixConstant("image_url");

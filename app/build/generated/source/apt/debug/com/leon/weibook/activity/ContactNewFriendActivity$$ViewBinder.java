@@ -14,8 +14,8 @@ public class ContactNewFriendActivity$$ViewBinder<T extends ContactNewFriendActi
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131493070, "field 'recyclerView'");
-    target.recyclerView = finder.castView(view, 2131493070, "field 'recyclerView'");
+    view = finder.findRequiredView(source, 2131493071, "field 'recyclerView'");
+    target.recyclerView = finder.castView(view, 2131493071, "field 'recyclerView'");
     return unbinder;
   }
 

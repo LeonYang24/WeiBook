@@ -35,6 +35,7 @@ import com.leon.weibook.model.AddRequestManager;
 import com.leon.weibook.model.FriendsManager;
 import com.leon.weibook.model.LeanChatUser;
 import com.leon.weibook.util.Constants;
+import com.leon.weibook.views.DiscoverItemView;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -46,26 +47,25 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 /**
+ * 底部Tab第二个“联系人”页面
  * Created by Leon on 2016/5/15 0015.
  */
 public class FragmentContact extends BaseFragment {
 
-	@BindView(R.id.activity_square_members_srl_list)
-	protected SwipeRefreshLayout refreshLayout;
+	@BindView(R.id.activity_square_members_srl_list) protected SwipeRefreshLayout refreshLayout;
+	@BindView(R.id.activity_square_members_rv_list) protected RecyclerView recyclerView;
+	@BindView(R.id.item_contact_new_friend) protected DiscoverItemView itemNewFriend;
+	@BindView(R.id.item_contact_group) protected DiscoverItemView itemgroup;
 
-	@BindView(R.id.activity_square_members_rv_list)
-	protected RecyclerView recyclerView;
+	ImageView msgTipsView;
 
-	@BindView(R.id.iv_msg_tips)
-	protected ImageView msgTipsView;
-
-	@OnClick(R.id.layout_new)
+	@OnClick(R.id.item_contact_new_friend)
 	public void newFriend() {
 		Intent intent = new Intent(ctx, ContactNewFriendActivity.class);
 				ctx.startActivity(intent);
 	}
 
-	@OnClick(R.id.layout_group)
+	@OnClick(R.id.item_contact_group)
 	public void group() {
 		Intent intent = new Intent(ctx, ConversationGroupListActivity.class);
 				ctx.startActivity(intent);
@@ -74,13 +74,25 @@ public class FragmentContact extends BaseFragment {
 	private AdapterContact itemAdapter;
 	LinearLayoutManager layoutManager;
 
+
+
 	@Override
 	public void onActivityCreated(Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
-		initHeader();
+		init();
 		refresh();
 		EventBus.getDefault().register(this);
 		getMembers(false);
+	}
+
+	private void init() {
+		itemNewFriend.setIcon(R.mipmap.contact_new_friends_icon);
+		itemNewFriend.setIconName(getString(R.string.contact_new_friends));
+
+		itemgroup.setIcon(R.mipmap.contact_group_icon);
+		itemgroup.setIconName(getString(R.string.conversation_group));
+
+		msgTipsView = itemNewFriend.iconMsgTip;
 	}
 
 	@Nullable
@@ -88,7 +100,6 @@ public class FragmentContact extends BaseFragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 							 Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.fragment_contact, container, false);
-		//headerView = inflater.inflate(R.layout.contact_fragment_header_layout, container, false);
 		ButterKnife.bind(this, view);
 
 		layoutManager = new LinearLayoutManager(getActivity());
@@ -105,18 +116,6 @@ public class FragmentContact extends BaseFragment {
 		});
 
 		return view;
-	}
-
-	private void initHeader() {
-		headerLayout.setTitle(App.ctx.getString(R.string.contact));
-		headerLayout.showRightImageButton(R.drawable.base_action_bar_add_bg_selector,
-				new View.OnClickListener() {
-					@Override
-					public void onClick(View v) {
-						Intent intent = new Intent(ctx, ContactAddFriendActivity.class);
-						ctx.startActivity(intent);
-					}
-		});
 	}
 
 	@Override

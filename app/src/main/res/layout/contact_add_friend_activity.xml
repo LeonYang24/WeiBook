@@ -26,7 +26,7 @@
             android:textColor="@color/chat_base_color_text_black"/>
 
         <Button
-            android:id="@+id/searchBtn"
+            android:id="@+id/search_Friend_Btn"
             style="@style/My.TextView._White"
             android:layout_width="60dp"
             android:layout_height="39dp"

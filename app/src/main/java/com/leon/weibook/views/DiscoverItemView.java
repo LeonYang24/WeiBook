@@ -5,7 +5,6 @@ import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.leon.weibook.R;
@@ -18,6 +17,7 @@ public class DiscoverItemView extends LinearLayout {
 	LayoutInflater inflater;
 	LinearLayout item;
 	ImageView icon;
+	public ImageView iconMsgTip;
 	TextView iconName;
 
 	public DiscoverItemView(Context context) {
@@ -37,9 +37,10 @@ public class DiscoverItemView extends LinearLayout {
 
 	public void init() {
 		inflater = LayoutInflater.from(getContext());
-		item = (LinearLayout) inflater.inflate(R.layout.common_item_discover_layout, null, false);
-		icon = (ImageView) item.findViewById(R.id.iv_discover_item_icon);
-		iconName = (TextView) item.findViewById(R.id.tv_discover_item_name);
+		item = (LinearLayout) inflater.inflate(R.layout.common_item_layout, null, false);
+		icon = (ImageView) item.findViewById(R.id.iv__item_icon);
+		iconName = (TextView) item.findViewById(R.id.tv_item_name);
+		iconMsgTip = (ImageView) item.findViewById(R.id.iv_item_msgtips);
 		addView(item);
 	}
 

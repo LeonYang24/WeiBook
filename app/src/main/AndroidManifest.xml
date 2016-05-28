@@ -86,12 +86,12 @@
             android:theme="@style/AVActivity.NoActionBar"/>
 
         <activity
-            android:name=".activity.MainActivity"
-            android:theme="@style/AVActivity.NoActionBar"/>
+            android:name=".activity.MainActivity"/>
 
         <activity
             android:name=".activity.ContactAddFriendActivity"
-            android:theme="@style/AVActivity.NoActionBar"/>
+            android:label="@string/activity_add_friend_title"
+            android:parentActivityName=".activity.MainActivity"/>
 
         <activity
             android:name=".activity.ContactPersonInfoActivity"
@@ -114,6 +114,11 @@
         <activity
             android:name=".activity.WeatherActivity"
             android:theme="@style/AVActivity.NoActionBar"/>
+
+        <activity android:name=".activity.ConversationAddMembersActivity"
+                  android:label="@string/conversation_inviteMembers"/>
+
+        <activity android:name=".activity.UpdateContentActivity"/>
 
     </application>
 

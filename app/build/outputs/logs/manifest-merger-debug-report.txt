@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:2:1-120:12
+ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:2:1-125:12
 	package
 		ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:3:11-37
 		INJECTED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml
@@ -54,7 +54,7 @@ ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml
 	android:name
 		ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:25:26-85
 application
-ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:28:5-118:19
+ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:28:5-123:19
 MERGED from [com.android.support:appcompat-v7:23.3.0] E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-vector-drawable:23.3.0] E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-v4:23.3.0] E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
@@ -158,17 +158,17 @@ ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml
 	android:name
 		ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:85:13-58
 activity#com.leon.weibook.activity.MainActivity
-ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:88:9-90:60
-	android:theme
-		ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:90:13-58
+ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:88:9-89:52
 	android:name
 		ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:89:13-50
 activity#com.leon.weibook.activity.ContactAddFriendActivity
-ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:92:9-94:60
-	android:theme
-		ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:94:13-58
-	android:name
+ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:91:9-94:66
+	android:label
 		ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:93:13-62
+	android:parentActivityName
+		ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:94:13-64
+	android:name
+		ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:92:13-62
 activity#com.leon.weibook.activity.ContactPersonInfoActivity
 ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:96:9-98:60
 	android:theme
@@ -205,6 +205,16 @@ ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml
 		ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:116:13-58
 	android:name
 		ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:115:13-53
+activity#com.leon.weibook.activity.ConversationAddMembersActivity
+ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:118:9-119:71
+	android:label
+		ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:119:19-69
+	android:name
+		ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:118:19-74
+activity#com.leon.weibook.activity.UpdateContentActivity
+ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:121:9-67
+	android:name
+		ADDED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml:121:19-65
 uses-sdk
 INJECTED from E:\Android_Studio_Work_Space\WeiBook\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.3.0] E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:21:5-23:78

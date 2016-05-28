@@ -189,7 +189,7 @@ public class LocationActivity extends AVBaseActivity implements OnGetGeoCoderRes
 			setResult(RESULT_OK, intent);
 			this.finish();
 		} else {
-			showToast(R.string.chat_getGeoInfoFailed);
+			toast(R.string.chat_getGeoInfoFailed);
 		}
 	}
 

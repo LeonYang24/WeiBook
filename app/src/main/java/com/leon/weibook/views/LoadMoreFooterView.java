@@ -10,7 +10,9 @@ import android.widget.TextView;
 import com.leon.weibook.R;
 
 /**
- * 该View用于显示“查找好友”界面尾部的“查找更多”
+ * 该View
+ *
+ * 该View用于显示“查找好友”界面尾部的“查看更多”
  * 以及它的显示状态
  * Created by Leon on 2016/5/16 0016.
  */
@@ -30,6 +32,10 @@ public class LoadMoreFooterView extends LinearLayout {
 		initView(context);
 	}
 
+	/**
+	 * 初始化view
+	 * @param context
+	 */
 	private void initView(Context context) {
 		mContext = context;
 		LinearLayout moreView = (LinearLayout) LayoutInflater.from(mContext).inflate(
@@ -43,6 +49,10 @@ public class LoadMoreFooterView extends LinearLayout {
 		mHintView = (TextView) moreView.findViewById(R.id.load_more_footer_hint_textview);
 	}
 
+	/**
+	 * 通过传入的参数来判断是否显示 加载条 和 文本内容（“查看更多”）
+	 * @param staus
+	 */
 	public void onLoadStatusChanged(int staus) {
 		if (staus == RefreshableRecyclerView.STATUS_LAOD_MORE) {
 			mProgressBar.setVisibility(View.VISIBLE);

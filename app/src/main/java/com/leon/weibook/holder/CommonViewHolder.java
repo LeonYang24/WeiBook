@@ -22,10 +22,6 @@ public abstract class CommonViewHolder<T> extends RecyclerView.ViewHolder {
 
 	public abstract void bindData(T t);
 
-	public void setData(T t) {
-		bindData(t);
-	}
-
 	/**
 	 * 因为 CommonListAdapter 里边无法对于未知类型的 Class 进行实例化
 	 * 所以需要如果想用 CommonListAdapter，必须要在对应的 CommonViewHolder 实例化一个 HOLDER_CREATOR

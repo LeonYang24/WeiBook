@@ -1,12 +1,21 @@
 <resources>
-    <string name="app_name">微书</string>
+    <string name="app_name">我也是微信</string>
 
-    <string name="chat_utils_hardLoading">努力加载中...</string>
+    <!-- Menu item -->
+    <string name="menu_item_group_chat">发起群聊</string>
+    <string name="menu_item_add_friend">添加好友</string>
+    <string name="menu_item_richscan">扫一扫</string>
+
+
+    <!-- BaseFragment -->
+    <string name="hard_to_loading">努力加载中...</string>
 
     <!-- fragment_setting.xml -->
     <string name="setting_notifySetting">提醒设置</string>
     <string name="setting_fragment_checkUpdate">检查更新</string>
     <string name="setting_fragment_logout">注销</string>
+    <!-- FragmentSetting -->
+    <string name="setting_fragment_title">设置</string>
 
     <!--UserLoginActivity -->
     <string name="login_username_hint">请输入用户名</string>
@@ -56,7 +65,7 @@
     <string name="load_more_footer_hint_normal">查看更多</string>
 
     <!-- ContactAddFriendActivity -->
-    <string name="contact_findFriends">查找好友</string>
+    <string name="activity_add_friend_title">添加朋友</string>
 
     <!-- contact_person_info_activity.xml -->
     <string name="chat_common_avatar">头像</string>
@@ -136,6 +145,9 @@
     <string name="fragment_discover_music_name">音乐</string>
     <string name="fragment_discover_weather_name">天气</string>
     <string name="fragment_discover_title_name">发现</string>
+    <string name="fragment_discover_nearby_people">附近的人</string>
+    <string name="fragment_discover_rici_scan">扫一扫</string>
+    <string name="fragment_discover_friend_circle">朋友圈</string>
 
     <!-- activity_weather.xml-->
     <string name="activity_weather_default_location">广州</string>
@@ -152,5 +164,25 @@
     <string name="activity_weather_alertdialog_confirm">确定</string>
     <string name="activity_weather_alertdialog_cancel">取消</string>
     <string name="activity_weather_alertdialog_empty">城市名不能为空</string>
+
+    <!-- ConversationDetailActivity -->
+    <string name="conversation_name">群组名称</string>
+    <string name="conversation_create">创建</string>
+    <string name="conversation_Members">群组成员</string>
+    <string name="conversation_inviteSucceed">已发出邀请</string>
+    <string name="conversation_inviteMembers">邀请群成员</string>
+    <string name="conversation_kickTips">确认要踢走该成员吗</string>
+    <string name="conversation_detail_invite">邀请</string>
+    <string name="conversation_quitGroup">退群</string>
+    <string name="conversation_quit_group_tip">确定要退出该群组？</string>
+    <string name="conversation_alreadyQuitConv">已退出群</string>
+    <string name="conversation_detail_title">详情</string>
+    <string name="conversation_detail_kickSucceed">已踢走该成员</string>
+
+    <!-- update_content_layout.xml-->
+    <string name="chat_common_please_input_hint">请输入{0}</string>
+
+    <!-- UpdateContentActivity -->
+    <string name="chat_common_change_title">{0}</string>
 
 </resources>

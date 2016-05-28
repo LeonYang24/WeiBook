@@ -1,8 +1,6 @@
-CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\activity\MainActivity$override.class
-CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\R$style$override.class
-CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\R$string$override.class
-CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\fragment\FragmentDiscover$override.class
-CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\R$styleable$override.class
-CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\util\Utils$override.class
-CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\R$mipmap$override.class
+CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\fragment\FragmentConversation$2$override.class
+CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\fragment\FragmentConversation$3$override.class
+CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\fragment\FragmentConversation$1$override.class
+CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\fragment\FragmentConversation$4$override.class
+CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\leon\weibook\fragment\FragmentConversation$override.class
 CHANGED,E:\Android_Studio_Work_Space\WeiBook\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

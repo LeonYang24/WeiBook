@@ -88,12 +88,11 @@
         <activity
             android:name="com.leon.weibook.activity.UserRegisterActivity"
             android:theme="@style/AVActivity.NoActionBar" />
-        <activity
-            android:name="com.leon.weibook.activity.MainActivity"
-            android:theme="@style/AVActivity.NoActionBar" />
+        <activity android:name="com.leon.weibook.activity.MainActivity" />
         <activity
             android:name="com.leon.weibook.activity.ContactAddFriendActivity"
-            android:theme="@style/AVActivity.NoActionBar" />
+            android:label="@string/activity_add_friend_title"
+            android:parentActivityName="com.leon.weibook.activity.MainActivity" />
         <activity
             android:name="com.leon.weibook.activity.ContactPersonInfoActivity"
             android:theme="@style/AVActivity.NoActionBar" />
@@ -109,6 +108,10 @@
         <activity
             android:name="com.leon.weibook.activity.WeatherActivity"
             android:theme="@style/AVActivity.NoActionBar" />
+        <activity
+            android:name="com.leon.weibook.activity.ConversationAddMembersActivity"
+            android:label="@string/conversation_inviteMembers" />
+        <activity android:name="com.leon.weibook.activity.UpdateContentActivity" />
     </application>
 
 </manifest>

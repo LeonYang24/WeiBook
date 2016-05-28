@@ -27,7 +27,7 @@ import butterknife.BindView;
 import butterknife.OnClick;
 
 /**
- * 用户详情页，从对话详情页面和发现页面跳转过来
+ * 用户详情页，从对话详情页面和“查找好友”页面跳转过来
  * Created by Leon on 2016/5/16 0016.
  */
 public class ContactPersonInfoActivity extends AVBaseActivity{

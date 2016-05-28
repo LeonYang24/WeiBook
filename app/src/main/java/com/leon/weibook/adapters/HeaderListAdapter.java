@@ -75,9 +75,7 @@ public class HeaderListAdapter<T> extends CommonListAdapter<T> {
 	 */
 	@Override
 	public void onBindViewHolder(CommonViewHolder holder, int position) {
-		Log.i("test", "into onBindViewHolder - HeaderListAdapter position=" + position);
 		if (position == 0 && position == getItemCount() - 1) { //如果是头部或尾部，什么都不做
-			Log.i("test", "into onBindViewHolder but do nothing - HeaderListAdapter");
 			return;
 		}
 		super.onBindViewHolder(holder, position);

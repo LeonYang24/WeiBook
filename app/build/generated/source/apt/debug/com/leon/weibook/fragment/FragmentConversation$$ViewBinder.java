@@ -16,10 +16,10 @@ public class FragmentConversation$$ViewBinder<T extends FragmentConversation> im
     View view;
     view = finder.findRequiredView(source, 2131493009, "field 'imClientStateView'");
     target.imClientStateView = view;
-    view = finder.findRequiredView(source, 2131493095, "field 'refreshLayout'");
-    target.refreshLayout = finder.castView(view, 2131493095, "field 'refreshLayout'");
-    view = finder.findRequiredView(source, 2131493096, "field 'recyclerView'");
-    target.recyclerView = finder.castView(view, 2131493096, "field 'recyclerView'");
+    view = finder.findRequiredView(source, 2131493104, "field 'refreshLayout'");
+    target.refreshLayout = finder.castView(view, 2131493104, "field 'refreshLayout'");
+    view = finder.findRequiredView(source, 2131493105, "field 'recyclerView'");
+    target.recyclerView = finder.castView(view, 2131493105, "field 'recyclerView'");
     return unbinder;
   }
 

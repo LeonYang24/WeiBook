@@ -5,127 +5,43 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <include layout="@layout/common_header_layout"/>
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.leon.weibook.views.LetterView
-            android:id="@+id/activity_square_members_letterview"
-            android:layout_width="20dp"
-            android:layout_height="match_parent"
-            android:layout_alignParentRight="true">
-        </com.leon.weibook.views.LetterView>
-
-        <RelativeLayout
-            android:id="@+id/rl_header"
-            android:orientation="horizontal"
+        <LinearLayout
+            android:id="@+id/ll_top_header"
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:padding="3dp">
+            android:layout_height="wrap_content">
 
-            <LinearLayout
-                android:id="@+id/layout_new"
+            <com.leon.weibook.views.DiscoverItemView
+                android:id="@+id/item_contact_new_friend"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:clickable="true"
-                android:orientation="horizontal">
+                android:layout_height="60dp"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"/>
 
-                <FrameLayout
-                    android:id="@+id/frame_new"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical">
+            <View style="@style/DividerLine.Horizontal"/>
 
-                    <ImageView
-                        android:layout_width="50.0dip"
-                        android:layout_height="50.0dip"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="6.0dip"
-                        android:contentDescription="@string/profile_settings"
-                        android:padding="5dp"
-                        android:src="@mipmap/contact_new_friends_icon" />
-
-                    <ImageView
-                        android:id="@+id/iv_msg_tips"
-                        android:layout_width="10dp"
-                        android:layout_height="10dp"
-                        android:layout_gravity="top|right"
-                        android:layout_marginTop="5dp"
-                        android:contentDescription="@string/profile_settings"
-                        android:src="@mipmap/common_msg_tips"
-                        android:visibility="invisible" />
-                </FrameLayout>
-
-                <TextView
-                    android:id="@+id/tv_new_name"
-                    style="@style/My.TextView._Black"
-                    android:layout_width="0dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_weight="1.0"
-                    android:padding="5dp"
-                    android:singleLine="true"
-                    android:text="@string/contact_new_friends"
-                    android:textSize="20sp" />
-            </LinearLayout>
-
-            <View
-                android:id="@+id/line"
+            <com.leon.weibook.views.DiscoverItemView
+                android:id="@+id/item_contact_group"
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_below="@id/layout_new"
-                android:background="@drawable/base_horizontal_line" />
+                android:layout_height="60dp"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/layout_group"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/layout_new"
-                android:clickable="true"
-                android:orientation="horizontal">
-
-                <FrameLayout
-                    android:id="@+id/frame_group"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical">
-
-                    <ImageView
-                        android:layout_width="50.0dip"
-                        android:layout_height="50.0dip"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="6.0dip"
-                        android:contentDescription="@string/profile_settings"
-                        android:padding="5dp"
-                        android:src="@mipmap/contact_group_icon" />
-                </FrameLayout>
-
-                <TextView
-                    android:id="@+id/group"
-                    style="@style/My.TextView._Black"
-                    android:layout_width="0dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_weight="1.0"
-                    android:padding="5dp"
-                    android:singleLine="true"
-                    android:text="@string/conversation_group"
-                    android:textSize="20sp" />
-            </LinearLayout>
-
-            <View
-                android:id="@+id/group_line"
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_below="@id/layout_group"
-                android:background="@drawable/base_horizontal_line"/>
-
-
-        </RelativeLayout>
+        <View
+            android:id="@+id/line"
+            android:layout_below="@id/ll_top_header"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:background="#D6D6D6"
+            android:textColor="@color/chat_common_guide_color" />
 
         <RelativeLayout
-            android:layout_below="@+id/rl_header"
+            android:layout_below="@+id/line"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -142,6 +58,13 @@
             </android.support.v4.widget.SwipeRefreshLayout>
 
         </RelativeLayout>
+
+        <com.leon.weibook.views.LetterView
+            android:id="@+id/activity_square_members_letterview"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+        </com.leon.weibook.views.LetterView>
 
     </RelativeLayout>
 

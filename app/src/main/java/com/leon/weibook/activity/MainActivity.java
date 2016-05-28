@@ -3,8 +3,12 @@ package com.leon.weibook.activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 
 import com.leon.weibook.R;
@@ -13,6 +17,9 @@ import com.leon.weibook.fragment.FragmentConversation;
 import com.leon.weibook.fragment.FragmentDiscover;
 import com.leon.weibook.fragment.FragmentSetting;
 import com.leon.weibook.service.UpdateService;
+
+import java.io.InputStream;
+import java.lang.reflect.Method;
 
 import butterknife.BindView;
 
@@ -163,4 +170,49 @@ public class MainActivity extends AVBaseActivity {
 		UpdateService updateService = UpdateService.getInstance(this);
 		updateService.checkUpdate();
 	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.menu_main_action_bar, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onMenuItemSelected(int featureId, MenuItem item) {
+		switch (item.getItemId()) {
+			case R.id.menuitem_group_chat_start :
+				break;
+			case R.id.menuitem_add_new_friend :
+				jumpToAddNewFriendActivity();
+				break;
+			case R.id.menuitem_rich_sacn :
+				break;
+		}
+
+		return super.onMenuItemSelected(featureId, item);
+	}
+
+	@Override
+	public boolean onMenuOpened(int featureId, Menu menu) {
+		if (featureId == Window.FEATURE_ACTION_BAR && null != menu) {
+			if (menu.getClass().getSimpleName().equals("MenuBuilder")) {
+				try {
+					Method m = menu.getClass().getDeclaredMethod(
+							"setOptionalIconsVisible", Boolean.TYPE);
+					m.setAccessible(true);
+					m.invoke(menu, true);
+				} catch (Exception e) {
+					toast(e.toString());
+				}
+			}
+		}
+
+		return super.onMenuOpened(featureId, menu);
+	}
+
+	private void jumpToAddNewFriendActivity() {
+		Intent intent = new Intent(this, ContactAddFriendActivity.class);
+		startActivity(intent);
+	}
+
 }

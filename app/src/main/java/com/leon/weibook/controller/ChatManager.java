@@ -90,17 +90,13 @@ public class ChatManager {
 		this.selfId = userId;
 		roomsTable = RoomsTable.getInstanceByUserId(context, userId);
 
-		Log.i("test", "userid = " + selfId);
-
 		imClient = AVIMClient.getInstance(this.selfId);
 		imClient.open(new AVIMClientCallback() {
 			@Override
 			public void done(AVIMClient avimClient, AVIMException e) {
 				if (e != null) {
-					Log.i("test", "e!=null");
 					LeanChatClientEventHandler.getInstance().setConnectAndNotify(false);
 				} else {
-					Log.i("test", "e=null");
 					LeanChatClientEventHandler.getInstance().setConnectAndNotify(true);
 				}
 				if (callback != null) {
@@ -117,10 +113,9 @@ public class ChatManager {
 	 */
 	public void closeWithCallback(final AVIMClientCallback callback) {
 		imClient.close(new AVIMClientCallback() {
-
 			@Override
 			public void done(AVIMClient avimClient, AVIMException e) {
-				if (e != null) {
+				if (e != null) {//登出失败
 					LogUtils.logException(e);
 				}
 				if (callback != null) {
@@ -130,6 +125,7 @@ public class ChatManager {
 		});
 		imClient = null;
 		selfId = null;
+
 	}
 
 	public void createGroupConversation(List<String> memberIds, AVIMConversationCreatedCallback callback) {

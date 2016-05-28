@@ -13,6 +13,7 @@ import java.util.List;
 
 /**
  * 该类是所有ListAdapter的父类
+ *
  * Created by Leon on 2016/5/16 0016.
  */
 public class CommonListAdapter<T> extends RecyclerView.Adapter<CommonViewHolder> {
@@ -29,13 +30,17 @@ public class CommonListAdapter<T> extends RecyclerView.Adapter<CommonViewHolder>
 		this.vhClass = vhClass;
 	}
 
+	/**
+	 * 获取数据列表
+	 * @return
+	 */
 	public List<T> getDataList() {
 		return dataList;
 	}
 
 	/**
 	 * 设置数据列表
-	 * Attention：会先清除原先数据
+	 * TODO 会先清除原先数据
 	 * @param datas
 	 */
 	public void setDataList(List<T> datas) {
@@ -46,7 +51,8 @@ public class CommonListAdapter<T> extends RecyclerView.Adapter<CommonViewHolder>
 	}
 
 	/**
-	 * 增加数据     默认在最后增加
+	 * 增加数据
+	 * 不清除数据，默认在最后增加
 	 * @param datas
 	 */
 	public void addDataList(List<T> datas) {
@@ -56,6 +62,7 @@ public class CommonListAdapter<T> extends RecyclerView.Adapter<CommonViewHolder>
 	/**
 	 * Returns the total number of items in the data set hold by the adapter.
 	 * @return The total number of items in this adapter.
+	 * TODO 注意，返回值必须大于0，RecyclerView才会去刷新ViewHolder并bindViewHolder
 	 */
 	@Override
 	public int getItemCount() {
@@ -69,16 +76,18 @@ public class CommonListAdapter<T> extends RecyclerView.Adapter<CommonViewHolder>
 	 */
 	@Override
 	public void onBindViewHolder(CommonViewHolder holder, int position) {
-		Log.i("test", "CommonListAdapter position=" + position);
-		Log.i("test", "CommonListAdapter dataList.size()=" + dataList.size());
 		if (position >= 0 && position < dataList.size()) {
-			Log.i("test", "change..........");
-			Log.i("test", "CommonListAdapter position=" + position);
-			Log.i("test", "CommonListAdapter dataList.size()=" + dataList.size());
 			holder.bindData(dataList.get(position));
 		}
 	}
 
+	/**
+	 * Called when RecyclerView needs a new ViewHolder of the given type to represent
+	 * an item.
+	 * @param parent
+	 * @param viewType
+	 * @return
+	 */
 	@Override
 	public CommonViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 		if (null == vhClass) {

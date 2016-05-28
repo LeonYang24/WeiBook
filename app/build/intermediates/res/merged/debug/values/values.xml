@@ -21,6 +21,10 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="actionbar_bg_color">#303537</color>
+    <color name="actionbar_item_color">#303537</color>
+    <color name="actionbar_item_text_color">#FFFFFF</color>
+    <color name="actionbar_title_color">#FFFFFF</color>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
@@ -258,6 +262,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="activity_add_friend_title">添加朋友</string>
     <string name="activity_weather_alertdialog_cancel">取消</string>
     <string name="activity_weather_alertdialog_confirm">确定</string>
     <string name="activity_weather_alertdialog_empty">城市名不能为空</string>
@@ -270,7 +275,7 @@
     <string name="activity_weather_refresh_success">天气数据更新成功</string>
     <string name="activity_weather_title_future_threeday">未来三天的天气状况</string>
     <string name="activity_weather_ultraviolet">紫外线：</string>
-    <string name="app_name">微书</string>
+    <string name="app_name">我也是微信</string>
     <string name="chat_activity_select_picture">选择图片</string>
     <string name="chat_bottom_camera">拍摄</string>
     <string name="chat_bottom_location">位置</string>
@@ -281,7 +286,9 @@
     <string name="chat_cannotGetYourAddressInfo">无法获取到您的位置信息！</string>
     <string name="chat_common_avatar">头像</string>
     <string name="chat_common_cancel">取消</string>
+    <string name="chat_common_change_title">{0}</string>
     <string name="chat_common_emptyStr"/>
+    <string name="chat_common_please_input_hint">请输入{0}</string>
     <string name="chat_common_username">用户名</string>
     <string name="chat_emotion">表情</string>
     <string name="chat_geoIsSame">获取坐标相同</string>
@@ -294,7 +301,6 @@
     <string name="chat_record_button_releaseToCancel">松开手指，取消录音</string>
     <string name="chat_record_button_slideUpToCancel">手指上滑，取消发送</string>
     <string name="chat_reverseGeoCodeResultIs">反编码得到的地址：</string>
-    <string name="chat_utils_hardLoading">努力加载中...</string>
     <string name="chat_utils_please_choose">请选择</string>
     <string name="chat_utils_right">好的</string>
     <string name="chat_utils_share">分享</string>
@@ -308,26 +314,44 @@
     <string name="contact_deleteContact">删除联系人</string>
     <string name="contact_deleteFriendRequest">删除好友请求</string>
     <string name="contact_detailInfo">详细资料</string>
-    <string name="contact_findFriends">查找好友</string>
     <string name="contact_new_friends">新朋友</string>
     <string name="contact_personalInfo">个人资料</string>
     <string name="contact_search">搜索</string>
     <string name="contact_sendRequestSucceed">发送请求成功，等待对方验证</string>
+    <string name="conversation_Members">群组成员</string>
+    <string name="conversation_alreadyQuitConv">已退出群</string>
+    <string name="conversation_create">创建</string>
+    <string name="conversation_detail_invite">邀请</string>
+    <string name="conversation_detail_kickSucceed">已踢走该成员</string>
+    <string name="conversation_detail_title">详情</string>
     <string name="conversation_group">群组</string>
+    <string name="conversation_inviteMembers">邀请群成员</string>
+    <string name="conversation_inviteSucceed">已发出邀请</string>
+    <string name="conversation_kickTips">确认要踢走该成员吗</string>
     <string name="conversation_messages">会话</string>
+    <string name="conversation_name">群组名称</string>
+    <string name="conversation_quitGroup">退群</string>
+    <string name="conversation_quit_group_tip">确定要退出该群组？</string>
     <string name="discover_metres">米</string>
     <string name="discover_title">发现</string>
     <string name="ensurePassword">确认密码 </string>
     <string name="ensurePasswordHint">请在此输入密码</string>
     <string name="entry_register_activity_password">密码</string>
+    <string name="fragment_discover_friend_circle">朋友圈</string>
     <string name="fragment_discover_music_name">音乐</string>
+    <string name="fragment_discover_nearby_people">附近的人</string>
+    <string name="fragment_discover_rici_scan">扫一扫</string>
     <string name="fragment_discover_title_name">发现</string>
     <string name="fragment_discover_weather_name">天气</string>
+    <string name="hard_to_loading">努力加载中...</string>
     <string name="invitation_action">com.avoscloud.chat.INVITATION_ACTION</string>
     <string name="load_more_footer_hint_normal">查看更多</string>
     <string name="login">登录</string>
     <string name="login_password_hint">请输入密码</string>
     <string name="login_username_hint">请输入用户名</string>
+    <string name="menu_item_add_friend">添加好友</string>
+    <string name="menu_item_group_chat">发起群聊</string>
+    <string name="menu_item_richscan">扫一扫</string>
     <string name="message_is_null">消息不能为空</string>
     <string name="message_when_agree_request">我们已经是好友了，来聊天吧</string>
     <string name="not_have_account">还没有账号？</string>
@@ -342,6 +366,7 @@
     <string name="register_rightnow">立即注册 ></string>
     <string name="setting_fragment_checkUpdate">检查更新</string>
     <string name="setting_fragment_logout">注销</string>
+    <string name="setting_fragment_title">设置</string>
     <string name="setting_notifySetting">提醒设置</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="unspport_message_type">暂不支持此消息类型</string>
@@ -360,16 +385,32 @@
         <item name="android:textColorPrimary">@android:color/white</item>
         <item name="android:editTextStyle">@style/EditText</item>
     </style>
+    <style name="ActionBar" parent="android:Widget.Holo.ActionBar">
+            <item name="android:displayOptions">showTitle</item>
+            <item name="android:background">@color/actionbar_bg_color</item>
+            <item name="android:titleTextStyle">@style/ActionBarTitleText</item>
+        </style>
+    <style name="ActionBarOverflowButtonStyle" parent="android:style/Widget.Holo.ActionButton.Overflow">
+            <item name="android:src">@mipmap/action_bar_plus</item>
+        </style>
+    <style name="ActionBarTextAppearance" parent="TextAppearance.Small">
+            <item name="android:textColor">@color/actionbar_item_text_color</item>
+            <item name="android:textSize">16sp</item>
+        </style>
+    <style name="ActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+            <item name="android:textColor">@color/actionbar_title_color</item>
+            <item name="android:textSize">17sp</item>
+        </style>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+            <item name="android:actionBarStyle">@style/ActionBar</item>
+            <item name="android:actionOverflowButtonStyle">@style/ActionBarOverflowButtonStyle</item>
+            <item name="android:itemTextAppearance">@style/ActionBarTextAppearance</item>
+            <item name="android:itemBackground">@color/actionbar_item_color</item>
+        </style>
     <style name="Avatar">
         <item name="android:layout_width">45dp</item>
         <item name="android:layout_height">45dp</item>
@@ -1780,5 +1821,17 @@
         <item name="android:backgroundDimEnabled">false</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowBackground">@drawable/chat_record_button_round_background</item>
+    </style>
+    <style name="conversation_detail_base_left_layout">
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/group_detail_btn</item>
+    </style>
+    <style name="conversation_detail_base_left_style">
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
 </resources>

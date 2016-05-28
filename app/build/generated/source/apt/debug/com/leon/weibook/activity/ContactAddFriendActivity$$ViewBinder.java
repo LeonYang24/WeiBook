@@ -15,12 +15,12 @@ public class ContactAddFriendActivity$$ViewBinder<T extends ContactAddFriendActi
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131493056, "field 'recyclerView'");
-    target.recyclerView = finder.castView(view, 2131493056, "field 'recyclerView'");
-    view = finder.findRequiredView(source, 2131493054, "field 'searchNameEdit'");
-    target.searchNameEdit = finder.castView(view, 2131493054, "field 'searchNameEdit'");
-    view = finder.findRequiredView(source, 2131493055, "method 'search'");
-    unbinder.view2131493055 = view;
+    view = finder.findRequiredView(source, 2131493057, "field 'recyclerView'");
+    target.recyclerView = finder.castView(view, 2131493057, "field 'recyclerView'");
+    view = finder.findRequiredView(source, 2131493055, "field 'searchNameEdit'");
+    target.searchNameEdit = finder.castView(view, 2131493055, "field 'searchNameEdit'");
+    view = finder.findRequiredView(source, 2131493056, "method 'search'");
+    unbinder.view2131493056 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -37,7 +37,7 @@ public class ContactAddFriendActivity$$ViewBinder<T extends ContactAddFriendActi
   protected static class InnerUnbinder<T extends ContactAddFriendActivity> implements Unbinder {
     private T target;
 
-    View view2131493055;
+    View view2131493056;
 
     protected InnerUnbinder(T target) {
       this.target = target;
@@ -53,7 +53,7 @@ public class ContactAddFriendActivity$$ViewBinder<T extends ContactAddFriendActi
     protected void unbind(T target) {
       target.recyclerView = null;
       target.searchNameEdit = null;
-      view2131493055.setOnClickListener(null);
+      view2131493056.setOnClickListener(null);
     }
   }
 }
